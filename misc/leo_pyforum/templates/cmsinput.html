@@ -1,0 +1,38 @@
+##encoding: utf-8
+## 兩個 pound signs 在 Mako 語法中為註解行
+## 多行註解則使用
+<%doc>
+    這是註解
+    使用 <%! %> 表示在模組層次運作的 Python 程式碼, 可以用來 import 模組或定義相關的函式或物件
+</%doc>
+
+<html>
+        <head>
+                <title>Cherrypy Mako 表單測試</title>
+        </head>
+        <body>
+<style type="text/css" media="all">
+@import "templates/style/base.css";
+</style>  
+## 以下為一般的 Python 程式碼, 若是一般的運作則需要將 rows 數列傳進套稿中, 以便 render 頁面
+<%
+        outString ='''
+        資料新增表單 <br /><br />
+        <form method=\"post\" action=\"doAct\">
+        
+        學號:<input type="text" name="stud_number"><br />
+        姓名:<input type="text" name="stud_name"><br />
+        高中科系:<input type="text" name="school_dept"><br />
+        專長:<input type="text" name="major"><br />
+        預計薪資:<br /><textarea name="expt_salary" cols="40" rows="6"></textarea><br />
+        <input type="submit" value="新增">
+        <input type="reset" value="重填">
+        </form>
+        '''
+%>
+資料CMS表單(來自 Mako) <br /><br />
+${outString}
+
+<%include file="menulink.html"/>
+        </body>
+</html>

@@ -1,0 +1,224 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>前言 &mdash; Leo 4.9 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '4.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/sidebar.js"></script>
+    <link rel="top" title="Leo 4.9 documentation" href="index.html" />
+    <link rel="next" title="What People Are Saying About Leo" href="testimonials.html" />
+    <link rel="prev" title="Front Matter" href="frontMatter.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="testimonials.html" title="What People Are Saying About Leo"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="frontMatter.html" title="Front Matter"
+             accesskey="P">previous</a> |</li>
+        <li><a href="leo_toc.html">Leo 4.9 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="id1">
+<h1><a class="toc-backref" href="#id6">前言</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<span id="index-0"></span><p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#id1" id="id6">前言</a><ul>
+<li><a class="reference internal" href="#id4" id="id7">綱要結構為真實資料</a></li>
+<li><a class="reference internal" href="#leo" id="id8">Leo 綱要非一般綱要</a></li>
+<li><a class="reference internal" href="#id5" id="id9">結論與鼓勵</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>究竟為甚麼有人會對 Leo 編輯器感興趣? 畢竟,  Emacs 與 Vim 都是超級優
+的編輯器, 而且 Visual Studio 與 Eclipse 也都是很棒的 IDE&#8217;s. Leo 憑甚麼與這
+麼強的對手競爭?  Leo 又提供了哪些其他工具所沒有的功能?</p>
+<p>Leo 確實具備一些特色 &#8211; 是 Emacs, Vim, Visual Studio 與 Eclipse 所沒有的功能.
+當 Leo 用戶了解這些特色之後, 就會直呼 Aha! 這句 Aha 來自將程式, 設計與資料
+, 以前所未有的方式進行處理. 姑且稱之為&#8221;Leo 之道&#8221;. 本質上, Leo 不只將程式, 設計與
+資料當作文字. 沒錯, 大家經常使用文字來表達程式, 設計與資料. 而大家也都以文字
+進行處理, 但是文字並不代表其中應該有的全部內涵.</p>
+<p>以 Leo 之道來看, 文字僅是隱身其中, 屬於更重要內涵的一種表象 (影子). 意在言外的重點
+可以稱之為&#8221;組織&#8221;或&#8221;架構&#8221;或&#8221;觀點&#8221;或甚至&#8221;結構體&#8221;. 這裡我們以 <strong>節點</strong> 這個詞來
+表示 Leo 結構中的基本單元. 接下來讓我加以說明.</p>
+<p>以建築術語來說, 節點就如同建築物所使用的磚塊. 若在計算機程式術語來說, 節點組成
+方法, 類別, 檔案與整個應用程式. 因此所謂的&#8221;節點&#8221; 並*不*是一個固定的意涵</p>
+<blockquote>
+<div><ul class="simple">
+<li>而只是組織中的一個單元. 任一節點都能從其他節點來建構, 而且任一節點也都能</li>
+</ul>
+<p>為其他節點所用. Leo 直接將節點表示為大綱中的節點 (標題). 每一個大綱節點都包含
+標題 (headline) 與內文 (body text).  <a href="#id2"><span class="problematic" id="id3">**</span></a>大綱視窗**列出所有的標題; 而**內文視窗**則列出
+目前所選標題對應的內文.</p>
+</div></blockquote>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id7">綱要結構為真實資料</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>再重申一次: Leo 中最基本單元並*不是*文字. 當然, 標題與內文都*包含*
+文字, 但是節點卻不是文字, 而是貨真價實的 (Python) 物件.
+這代表幾個特點:</p>
+<p>1. 由於節點為真實的物件, Leo 指令知道節點的內容而且在整個大綱中的位置.
+待會再來看大綱組織, 這裡先舉個例子. 每一個節點正好有一個父節點, (除了最頂層的節點外)
+並且每一個節點都擁有零個或更多子節點, 以及零個或更多下屬節點.
+一個節點的父, 子與下屬都是該節點的真實屬性, 並且完全獨立於該節點的標題或內文.</p>
+<p>並且, 任一 Leo 指令 (或使用者所寫的程式與延伸套件) 都能*輕易*擷取某一標題的所有
+內涵, 而*無需*解讀節點內容. 指令, 程式碼與延伸套件都能輕易完成下列事項:
+取得大綱的根節點, 大綱中所選擇的節點, 父節點, 下屬節點, 子節點或上屬節點等.
+同時也能輕易插入, 刪除, 或移動節點, 也能變更任何節點的標題或內文. 所有
+這些動作都*無需*解讀節點文字內容.</p>
+<p>2. 將節點視為真實物件代表指令與延伸套件都能將標題文字視為與內文*完全不同*的屬性.
+此一特性將標題文字解讀為內文的簡要說明. 這點非常重要! 標題經常用來控制 Leo 的指令.
+例如, 標題以 &#64;file, &#64;asis, &#64;auto 等開頭, 就可以用來引導 Leo 控制讀寫指令.
+以 &#64;test, &#64;suite 與 &#64;mark-for-unit-tests 開頭的標題, 則可用來執行 Leo 的單元測試.
+並且, 也能輕易讓使用者建立新的標題規範, 用來控制使用者所寫的程式碼或延伸套件.
+例如, 延伸套件定義以 &#64;url, &#64;rst, &#64;bookmark, &#64;slideshow 等開頭的標題功能. 因此
+將標題與內文分開而且**當作真實節點物件** 的設計, 其實才是重點.</p>
+<p>3. 另外值得一提的還有 Leo 程式延伸所提供的 &#64;button 按鈕設計. 若標題為 &#64;button
+&lt;&lt;指令名稱&gt;&gt;, 其內文帶有一組程式碼. 當 Leo 開啟一個 Leo 標題, 每一個 &#64;button 節點可
+建立一個指令與圖像. 按下圖像 (或執行該指令) 就會讓所選擇的標題執行這段程式.
+換言之, 程式的執行可以隨心所欲套用在所選擇的大綱某一部分. 讓使用者可以&#8221;套用程式到某一資料&#8221;,
+亦即大綱內容的任何一部分. 尤其, 這也讓建立**編輯程式**來自動套用變得更加簡易, 而無需重複執行
+繁瑣無趣的程式編輯任務.</p>
+</div>
+<div class="section" id="leo">
+<h2><a class="toc-backref" href="#id8">Leo 綱要非一般綱要</a><a class="headerlink" href="#leo" title="Permalink to this headline">¶</a></h2>
+<p>Earlier I said that <em>any</em> node can be built from other nodes, and <em>any</em> node can
+be used by any other node. It takes a very special kind of outline for this to
+be possible. In a typical outline, such as Emacs outline mode, for example,
+nodes appear exactly once in the outline. This makes it impossible to &#8216;reuse&#8217;
+nodes in multiple places. Leo removes that limitation: any outline node can be
+<strong>cloned</strong>, and clones can appear in as many places in an outline as you like.
+Although clones may look distinct on the screen, at the data level
+<strong>each clone is exactly the same node</strong>.</p>
+<p>Earlier I said that you can think of nodes as representing &#8216;organization&#8217; or
+&#8216;structure&#8217; or &#8216;views&#8217; or even &#8216;architecture&#8217;. Clones are the crucial feature
+that allows this point of view. For example, we can build up multiple &#8216;views&#8217; of
+data in an outline using clones as follows:</p>
+<ul class="simple">
+<li>Create a &#8216;view node&#8217; that will represent a <em>user-specified</em> view.</li>
+<li>Clone all nodes that are to be part of the view, and move them so that each
+clone is a child of the view node.</li>
+</ul>
+<p>That&#8217;s about all there is to it. The view node, and its children <em>is</em> a new view
+of the outline. This notion of &#8216;view&#8217; is so important that Leo supports it
+directly. Leo&#8217;s <strong>chapters</strong> are simply views created as I have just described.
+When you select one chapter, you only see the nodes of that chapter in Leo&#8217;s
+outline pane.</p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id9">結論與鼓勵</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>So Leo offers a new way to understand, organize and manipulate <em>any</em> kind of
+complex data, including computer programs, <em>designs</em> of computer programs, web
+sites, personal data, whatever. The Aha that I invite you to experience is this:
+Outlines are more than mere eye candy. Having organization be real data creates
+an entirely new dimension, literally and figuratively, in computer programming,
+computer design and data organization, including web-site design, database
+design, etc. Leo&#8217;s commands use headline and body text in many creative ways. So
+can you and your scripts. It&#8217;s easy, it&#8217;s fun, and it&#8217;s revolutionary.</p>
+<p>That&#8217;s about it, except for some words of caution and advice:</p>
+<ol class="arabic simple">
+<li>Leo has been under active development for over 10 years. The new world
+created by nodes is rich and varied. You won&#8217;t learn it all in a day or so.
+Please be patient. Start by learning Leo&#8217;s basic features as explained in the
+tutorial. You can learn more advanced features later.</li>
+<li>Those of you who are comfortable with Emacs should feel pretty much at home
+with Leo. Leo has shamelessly stolen the best features of Emacs, including
+the minibuffer and many Emacs-like commands.</li>
+<li>For those of you who are <em>not</em> comfortable with Emacs, please understand that
+you do <em>not</em> need to understand all of Leo&#8217;s commands in order to use Leo.
+Start by ignoring the minibuffer. Later, the minibuffer can become your
+friend, but you can get the Aha! without it.</li>
+</ol>
+<p>Edward K. Ream
+July, 2007</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="leo_toc.html">
+              <img class="logo" src="_static/Leo4-80-border.jpg" alt="Logo"/>
+            </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="frontMatter.html"
+                        title="previous chapter">Front Matter</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="testimonials.html"
+                        title="next chapter">What People Are Saying About Leo</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="testimonials.html" title="What People Are Saying About Leo"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="frontMatter.html" title="Front Matter"
+             >previous</a> |</li>
+        <li><a href="leo_toc.html">Leo 4.9 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2011, Edward K. Ream.
+      Last updated on Feb 27, 2013.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

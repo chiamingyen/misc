@@ -1,0 +1,102 @@
+##encoding: utf-8
+## 兩個 pound signs 在 Mako 語法中為註解行
+## 多行註解則使用
+<%doc>
+    這是註解
+    使用 <%! %> 表示在模組層次運作的 Python 程式碼, 可以用來 import 模組或定義相關的函式或物件
+</%doc>
+
+<html>
+        <head>
+                <title>Cherrypy Mako page list</title>
+        </head>
+        <body>
+<style type="text/css" media="all">
+@import "templates/style/base.css";
+</style>  
+## 以下為一般的 Python 程式碼, 若是一般的運作則需要將 rows 數列傳進套稿中, 以便 render 頁面
+## 或許只要傳 inputlist 然後其他的分頁運算, 都在套稿中進行處理
+##<%! 表示要在 module 層次執行 python 程式
+<%! 
+import math
+# 導入 cherrypy 主要目的在取出 session 中的對應值, 或者由呼叫函式送出對應的查詢關鍵字
+import cherrypy
+%>
+<%
+    # 已經改為只送出特定頁面的資料
+    #totalitem = len(st_array)
+    # totalitem 為由 pyforum2.py 送來的變數, 而 total_item 則是 Mako 套稿中的對應變數
+    keyword = cherrypy.session.get('keyword')
+    page_now = 1
+    outString = ""
+    totalpage = math.ceil(totalitem/int(itemperpage))
+    # 若索引從 1 開始
+    #starti = int(itemperpage) * (int(page) - 1) + 1
+    # 若索引從 0 開始
+    starti = int(itemperpage) * (int(page) - 1)
+    endi = starti + int(itemperpage) - 1
+    if ((int(page) * int(itemperpage)) < totalitem):
+        notlast = True
+    else:
+        notlast = False
+        endi = totalitem - 1
+    if (int(page) > 1):
+        # doSearch?keyword=可&page=2
+        # 列出前往第一頁的連結
+        outString += "<a href=\""
+        outString += "doSearch?keyword="+keyword+"&page=1&itemperpage="+str(itemperpage)
+        outString += "\"><<</a> "
+
+        pagenum = int(page) - 1
+        outString += "<a href=\""
+        outString += "doSearch?keyword="+keyword+"&page="+str(pagenum)+"&itemperpage="+str(itemperpage)
+        outString += "\">上一頁</a> "
+    numrange = 10
+    for j in range(int(page)-numrange,int(page)+numrange):
+        if((j>=0) and (j<totalpage)):
+            page_now = j + 1
+            if(page_now == int(page)):
+                outString += "<font size=\"+1\" color=\"red\">"+str(page)+" </font>"
+            else:
+                outString += "<a href=\""
+                outString += "doSearch?keyword="+keyword+"&page="+str(page_now)+"&itemperpage="+str(itemperpage)
+                outString += "\">"+str(page_now)+"</a> "
+    if (notlast == True):
+        nextpage = int(page) + 1
+        outString += " <a href=\""
+        outString += "doSearch?keyword="+keyword+"&page="+str(nextpage)+"&itemperpage="+str(itemperpage)
+        outString += "\">下一頁</a>"
+        # 列出前往最後一頁的連結
+        outString += " <a href=\""
+        outString += "doSearch?keyword="+keyword+"&page="+str(totalpage)+"&itemperpage="+str(itemperpage)
+        outString += "\">>></a>"
+    outString += "<br /><br />"
+%>
+列出搜尋結果
+<br />
+搜尋的關鍵字為:"${keyword}"
+<br />
+## 列出分頁表單
+${outString}
+## CherryPy 送出 st_array 數列資料
+## 接下來要設法進行資料分頁
+## 應該要先將 table 資料由左至右的排列序號, 傳道 Mako, 然後利用以下迴圈將資料列印成表格
+總資料數為: ${totalitem}, 這是第 ${starti+1} 到的 ${endi+1} 筆資料 (from Mako spagelist.html)
+<br /><br />
+<table border=1 width=800>
+    % for 外索引 in range(len(st_array)):
+    <tr>
+        % for 內索引 in range(len(st_array[外索引])):
+        <td width=100>
+            ${st_array[外索引][內索引]}
+        </td>
+        % endfor
+    </tr>
+    % endfor
+</table>
+<br />
+## 列出分頁表單
+${outString}
+<%include file="menulink.html"/>
+        </body>
+</html>

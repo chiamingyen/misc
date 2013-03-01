@@ -1,0 +1,365 @@
+\indexentry{前言|hyperpage}{5}
+\indexentry{What people are saying about Leo|hyperpage}{9}
+\indexentry{FAQ|hyperpage}{19}
+\indexentry{Installing Leo|hyperpage}{47}
+\indexentry{Leo's tutorial|hyperpage}{55}
+\indexentry{Leonine!Tutorial|hyperpage}{55}
+\indexentry{Tutorial!Leonine|hyperpage}{55}
+\indexentry{Outline pane!Tutorial|hyperpage}{56}
+\indexentry{Tutorial!Outline pane|hyperpage}{56}
+\indexentry{Body pane!Tutorial|hyperpage}{56}
+\indexentry{Tutorial!Body pane|hyperpage}{56}
+\indexentry{Main Window!Tutorial|hyperpage}{56}
+\indexentry{Tutorial!Main Window|hyperpage}{56}
+\indexentry{Outline pane!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Outline pane|hyperpage}{57}
+\indexentry{Icon box!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Icon box|hyperpage}{57}
+\indexentry{Expansion box!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Expansion box|hyperpage}{57}
+\indexentry{Node!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Node|hyperpage}{57}
+\indexentry{Headline!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Headline|hyperpage}{57}
+\indexentry{Body text!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Body text|hyperpage}{57}
+\indexentry{Parent!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Parent|hyperpage}{57}
+\indexentry{Child!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Child|hyperpage}{57}
+\indexentry{Ancestor!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Ancestor|hyperpage}{57}
+\indexentry{Descendant!Tutorial|hyperpage}{57}
+\indexentry{Tutorial!Descendant|hyperpage}{57}
+\indexentry{Body pane!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!Body pane|hyperpage}{58}
+\indexentry{Log pane!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!Log pane|hyperpage}{58}
+\indexentry{Icon area!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!Icon area|hyperpage}{58}
+\indexentry{Status area!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!Status area|hyperpage}{58}
+\indexentry{Minibuffer!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!Minibuffer|hyperpage}{58}
+\indexentry{External file!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!External file|hyperpage}{58}
+\indexentry{.leo file!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!.leo file|hyperpage}{58}
+\indexentry{XML!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!XML|hyperpage}{58}
+\indexentry{@file!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!@file|hyperpage}{58}
+\indexentry{Load directory!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!Load directory|hyperpage}{58}
+\indexentry{Dirty node!Tutorial|hyperpage}{58}
+\indexentry{Tutorial!Dirty node|hyperpage}{58}
+\indexentry{Leo markup!Tutorial|hyperpage}{59}
+\indexentry{Tutorial!Leo markup|hyperpage}{59}
+\indexentry{Outline order!Tutorial|hyperpage}{59}
+\indexentry{Tutorial!Outline order|hyperpage}{59}
+\indexentry{@all!Tutorial|hyperpage}{59}
+\indexentry{Tutorial!@all|hyperpage}{59}
+\indexentry{@others!Tutorial|hyperpage}{59}
+\indexentry{Tutorial!@others|hyperpage}{59}
+\indexentry{Section reference!Tutorial|hyperpage}{59}
+\indexentry{Tutorial!Section reference|hyperpage}{59}
+\indexentry{Section name!Tutorial|hyperpage}{59}
+\indexentry{Tutorial!Section name|hyperpage}{59}
+\indexentry{Named node!Tutorial|hyperpage}{59}
+\indexentry{Tutorial!Named node|hyperpage}{59}
+\indexentry{@others!Tutorial|hyperpage}{60}
+\indexentry{Tutorial!@others|hyperpage}{60}
+\indexentry{@all!Tutorial|hyperpage}{60}
+\indexentry{Tutorial!@all|hyperpage}{60}
+\indexentry{Style!Tutorial|hyperpage}{60}
+\indexentry{Tutorial!Style|hyperpage}{60}
+\indexentry{Clone!Tutorial|hyperpage}{62}
+\indexentry{Tutorial!Clone|hyperpage}{62}
+\indexentry{View node!Tutorial|hyperpage}{62}
+\indexentry{Tutorial!View node|hyperpage}{62}
+\indexentry{Bug node!Tutorial|hyperpage}{62}
+\indexentry{Tutorial!Bug node|hyperpage}{62}
+\indexentry{Directive!Tutorial|hyperpage}{62}
+\indexentry{Tutorial!Directive|hyperpage}{62}
+\indexentry{@color!Tutorial|hyperpage}{63}
+\indexentry{Tutorial!@color|hyperpage}{63}
+\indexentry{@nocolor!Tutorial|hyperpage}{63}
+\indexentry{Tutorial!@nocolor|hyperpage}{63}
+\indexentry{@killcolor!Tutorial|hyperpage}{63}
+\indexentry{Tutorial!@killcolor|hyperpage}{63}
+\indexentry{Ambiguous Node!Tutorial|hyperpage}{63}
+\indexentry{Tutorial!Ambiguous Node|hyperpage}{63}
+\indexentry{@first!Tutorial|hyperpage}{63}
+\indexentry{Tutorial!@first|hyperpage}{63}
+\indexentry{@language!Tutorial|hyperpage}{63}
+\indexentry{Tutorial!@language|hyperpage}{63}
+\indexentry{@pagewidth!Tutorial|hyperpage}{63}
+\indexentry{Tutorial!@pagewidth|hyperpage}{63}
+\indexentry{@path!Tutorial|hyperpage}{64}
+\indexentry{Tutorial!@path|hyperpage}{64}
+\indexentry{@tabwidth!Tutorial|hyperpage}{64}
+\indexentry{Tutorial!@tabwidth|hyperpage}{64}
+\indexentry{Negative tab width!Tutorial|hyperpage}{64}
+\indexentry{Tutorial!Negative tab width|hyperpage}{64}
+\indexentry{@wrap!Tutorial|hyperpage}{64}
+\indexentry{Tutorial!@wrap|hyperpage}{64}
+\indexentry{@nowrap!Tutorial|hyperpage}{64}
+\indexentry{Tutorial!@nowrap|hyperpage}{64}
+\indexentry{Scripting Leo!Tutorial|hyperpage}{64}
+\indexentry{Tutorial!Scripting Leo|hyperpage}{64}
+\indexentry{Extending Leo!Tutorial|hyperpage}{64}
+\indexentry{Tutorial!Extending Leo|hyperpage}{64}
+\indexentry{@asis!Tutorial|hyperpage}{64}
+\indexentry{Tutorial!@asis|hyperpage}{64}
+\indexentry{@\textless{}file\textgreater{}!Reference|hyperpage}{261}
+\indexentry{Reference!@\textless{}file\textgreater{}|hyperpage}{261}
+\indexentry{@asis!Reference|hyperpage}{262}
+\indexentry{Reference!@asis|hyperpage}{262}
+\indexentry{@@ convention in @asis trees!Reference|hyperpage}{262}
+\indexentry{Reference!@@ convention in @asis trees|hyperpage}{262}
+\indexentry{@auto!Reference|hyperpage}{262}
+\indexentry{Reference!@auto|hyperpage}{262}
+\indexentry{Importer!Reference|hyperpage}{263}
+\indexentry{Reference!Importer|hyperpage}{263}
+\indexentry{Organizer tag!Reference|hyperpage}{263}
+\indexentry{Reference!Organizer tag|hyperpage}{263}
+\indexentry{Strict language!Reference|hyperpage}{263}
+\indexentry{Reference!Strict language|hyperpage}{263}
+\indexentry{Underindented line!Reference|hyperpage}{263}
+\indexentry{Reference!Underindented line|hyperpage}{263}
+\indexentry{@edit!Reference|hyperpage}{263}
+\indexentry{Reference!@edit|hyperpage}{263}
+\indexentry{@file!Reference|hyperpage}{264}
+\indexentry{Reference!@file|hyperpage}{264}
+\indexentry{@thin!Reference|hyperpage}{264}
+\indexentry{Reference!@thin|hyperpage}{264}
+\indexentry{@nosent!Reference|hyperpage}{264}
+\indexentry{Reference!@nosent|hyperpage}{264}
+\indexentry{@shadow!Reference|hyperpage}{264}
+\indexentry{Reference!@shadow|hyperpage}{264}
+\indexentry{Private file!Reference|hyperpage}{264}
+\indexentry{Reference!Private file|hyperpage}{264}
+\indexentry{Public file!Reference|hyperpage}{264}
+\indexentry{Reference!Public file|hyperpage}{264}
+\indexentry{@all!Reference|hyperpage}{264}
+\indexentry{Reference!@all|hyperpage}{264}
+\indexentry{@others!Reference|hyperpage}{265}
+\indexentry{Reference!@others|hyperpage}{265}
+\indexentry{Ambiguous node!Reference|hyperpage}{265}
+\indexentry{Reference!Ambiguous node|hyperpage}{265}
+\indexentry{@color!Reference|hyperpage}{265}
+\indexentry{Reference!@color|hyperpage}{265}
+\indexentry{@killcolor!Reference|hyperpage}{265}
+\indexentry{Reference!@killcolor|hyperpage}{265}
+\indexentry{@nocolor!Reference|hyperpage}{265}
+\indexentry{Reference!@nocolor|hyperpage}{265}
+\indexentry{@nocolor-node!Reference|hyperpage}{265}
+\indexentry{Reference!@nocolor-node|hyperpage}{265}
+\indexentry{@comment!Reference|hyperpage}{265}
+\indexentry{Reference!@comment|hyperpage}{265}
+\indexentry{@delims!Reference|hyperpage}{266}
+\indexentry{Reference!@delims|hyperpage}{266}
+\indexentry{@raw!Reference|hyperpage}{266}
+\indexentry{Reference!@raw|hyperpage}{266}
+\indexentry{@end\_raw!Reference|hyperpage}{266}
+\indexentry{Reference!@end\_raw|hyperpage}{266}
+\indexentry{@!Reference|hyperpage}{266}
+\indexentry{Reference!@|hyperpage}{266}
+\indexentry{@doc!Reference|hyperpage}{266}
+\indexentry{Reference!@doc|hyperpage}{266}
+\indexentry{Doc part!Reference|hyperpage}{266}
+\indexentry{Reference!Doc part|hyperpage}{266}
+\indexentry{@c!Reference|hyperpage}{267}
+\indexentry{Reference!@c|hyperpage}{267}
+\indexentry{@code!Reference|hyperpage}{267}
+\indexentry{Reference!@code|hyperpage}{267}
+\indexentry{@chapter!Reference|hyperpage}{267}
+\indexentry{Reference!@chapter|hyperpage}{267}
+\indexentry{@chapters!Reference|hyperpage}{267}
+\indexentry{Reference!@chapters|hyperpage}{267}
+\indexentry{@encoding!Reference|hyperpage}{267}
+\indexentry{Reference!@encoding|hyperpage}{267}
+\indexentry{@first!Reference|hyperpage}{267}
+\indexentry{Reference!@first|hyperpage}{267}
+\indexentry{@language!Reference|hyperpage}{268}
+\indexentry{Reference!@language|hyperpage}{268}
+\indexentry{@last!Reference|hyperpage}{268}
+\indexentry{Reference!@last|hyperpage}{268}
+\indexentry{@lineending!Reference|hyperpage}{268}
+\indexentry{Reference!@lineending|hyperpage}{268}
+\indexentry{@nowrap!Reference|hyperpage}{268}
+\indexentry{Reference!@nowrap|hyperpage}{268}
+\indexentry{@pagewidth!Reference|hyperpage}{269}
+\indexentry{Reference!@pagewidth|hyperpage}{269}
+\indexentry{@path!Reference|hyperpage}{269}
+\indexentry{Reference!@path|hyperpage}{269}
+\indexentry{Absolute path!Reference|hyperpage}{269}
+\indexentry{Reference!Absolute path|hyperpage}{269}
+\indexentry{Path prefix!Reference|hyperpage}{269}
+\indexentry{Reference!Path prefix|hyperpage}{269}
+\indexentry{@tabwidth!Reference|hyperpage}{269}
+\indexentry{Reference!@tabwidth|hyperpage}{269}
+\indexentry{Negative tab width!Reference|hyperpage}{269}
+\indexentry{Reference!Negative tab width|hyperpage}{269}
+\indexentry{@wrap!Reference|hyperpage}{269}
+\indexentry{Reference!@wrap|hyperpage}{269}
+\indexentry{@!Glossary|hyperpage}{301}
+\indexentry{Glossary!@|hyperpage}{301}
+\indexentry{@@ convention for headlines!Glossary|hyperpage}{301}
+\indexentry{Glossary!@@ convention for headlines|hyperpage}{301}
+\indexentry{@\textless{}file\textgreater{} node!Glossary|hyperpage}{301}
+\indexentry{Glossary!@\textless{}file\textgreater{} node|hyperpage}{301}
+\indexentry{@all!Glossary|hyperpage}{301}
+\indexentry{Glossary!@all|hyperpage}{301}
+\indexentry{@asis!Glossary|hyperpage}{301}
+\indexentry{Glossary!@asis|hyperpage}{301}
+\indexentry{@auto!Glossary|hyperpage}{301}
+\indexentry{Glossary!@auto|hyperpage}{301}
+\indexentry{@c!Glossary|hyperpage}{301}
+\indexentry{Glossary!@c|hyperpage}{301}
+\indexentry{@code!Glossary|hyperpage}{301}
+\indexentry{Glossary!@code|hyperpage}{301}
+\indexentry{@chapter!Glossary|hyperpage}{301}
+\indexentry{Glossary!@chapter|hyperpage}{301}
+\indexentry{@chapters!Glossary|hyperpage}{301}
+\indexentry{Glossary!@chapters|hyperpage}{301}
+\indexentry{@color!Glossary|hyperpage}{301}
+\indexentry{Glossary!@color|hyperpage}{301}
+\indexentry{@comment!Glossary|hyperpage}{301}
+\indexentry{Glossary!@comment|hyperpage}{301}
+\indexentry{@delims!Glossary|hyperpage}{302}
+\indexentry{Glossary!@delims|hyperpage}{302}
+\indexentry{@edit!Glossary|hyperpage}{302}
+\indexentry{Glossary!@edit|hyperpage}{302}
+\indexentry{@encoding!Glossary|hyperpage}{302}
+\indexentry{Glossary!@encoding|hyperpage}{302}
+\indexentry{@end\_raw!Glossary|hyperpage}{302}
+\indexentry{Glossary!@end\_raw|hyperpage}{302}
+\indexentry{@file!Glossary|hyperpage}{302}
+\indexentry{Glossary!@file|hyperpage}{302}
+\indexentry{@first!Glossary|hyperpage}{302}
+\indexentry{Glossary!@first|hyperpage}{302}
+\indexentry{@killcolor!Glossary|hyperpage}{302}
+\indexentry{Glossary!@killcolor|hyperpage}{302}
+\indexentry{@language!Glossary|hyperpage}{302}
+\indexentry{Glossary!@language|hyperpage}{302}
+\indexentry{@last!Glossary|hyperpage}{302}
+\indexentry{Glossary!@last|hyperpage}{302}
+\indexentry{@lineending!Glossary|hyperpage}{302}
+\indexentry{Glossary!@lineending|hyperpage}{302}
+\indexentry{@nocolor!Glossary|hyperpage}{302}
+\indexentry{Glossary!@nocolor|hyperpage}{302}
+\indexentry{@nocolor-node!Glossary|hyperpage}{302}
+\indexentry{Glossary!@nocolor-node|hyperpage}{302}
+\indexentry{@nosent!Glossary|hyperpage}{303}
+\indexentry{Glossary!@nosent|hyperpage}{303}
+\indexentry{@nowrap!Glossary|hyperpage}{303}
+\indexentry{Glossary!@nowrap|hyperpage}{303}
+\indexentry{@others!Glossary|hyperpage}{303}
+\indexentry{Glossary!@others|hyperpage}{303}
+\indexentry{@pagewidth!Glossary|hyperpage}{303}
+\indexentry{Glossary!@pagewidth|hyperpage}{303}
+\indexentry{@path!Glossary|hyperpage}{303}
+\indexentry{Glossary!@path|hyperpage}{303}
+\indexentry{@raw!Glossary|hyperpage}{303}
+\indexentry{Glossary!@raw|hyperpage}{303}
+\indexentry{@tabwidth!Glossary|hyperpage}{303}
+\indexentry{Glossary!@tabwidth|hyperpage}{303}
+\indexentry{@thin!Glossary|hyperpage}{303}
+\indexentry{Glossary!@thin|hyperpage}{303}
+\indexentry{@wrap!Glossary|hyperpage}{303}
+\indexentry{Glossary!@wrap|hyperpage}{303}
+\indexentry{Body pane!Glossary|hyperpage}{303}
+\indexentry{Glossary!Body pane|hyperpage}{303}
+\indexentry{Body text!Glossary|hyperpage}{303}
+\indexentry{Glossary!Body text|hyperpage}{303}
+\indexentry{Body text box!Glossary|hyperpage}{303}
+\indexentry{Glossary!Body text box|hyperpage}{303}
+\indexentry{Child!Glossary|hyperpage}{303}
+\indexentry{Glossary!Child|hyperpage}{303}
+\indexentry{Clone!Glossary|hyperpage}{303}
+\indexentry{Glossary!Clone|hyperpage}{303}
+\indexentry{Clone arrow!Glossary|hyperpage}{303}
+\indexentry{Glossary!Clone arrow|hyperpage}{303}
+\indexentry{Code part!Glossary|hyperpage}{303}
+\indexentry{Glossary!Code part|hyperpage}{303}
+\indexentry{Contract!Glossary|hyperpage}{304}
+\indexentry{Glossary!Contract|hyperpage}{304}
+\indexentry{Demote!Glossary|hyperpage}{304}
+\indexentry{Glossary!Demote|hyperpage}{304}
+\indexentry{Descendant!Glossary|hyperpage}{304}
+\indexentry{Glossary!Descendant|hyperpage}{304}
+\indexentry{Directive!Glossary|hyperpage}{304}
+\indexentry{Glossary!Directive|hyperpage}{304}
+\indexentry{Doc part!Glossary|hyperpage}{304}
+\indexentry{Glossary!Doc part|hyperpage}{304}
+\indexentry{Escape convention!Glossary|hyperpage}{304}
+\indexentry{Glossary!Escape convention|hyperpage}{304}
+\indexentry{Expand!Glossary|hyperpage}{304}
+\indexentry{Glossary!Expand|hyperpage}{304}
+\indexentry{External file!Glossary|hyperpage}{304}
+\indexentry{Glossary!External file|hyperpage}{304}
+\indexentry{Grandchild!Glossary|hyperpage}{304}
+\indexentry{Glossary!Grandchild|hyperpage}{304}
+\indexentry{Headline!Glossary|hyperpage}{304}
+\indexentry{Glossary!Headline|hyperpage}{304}
+\indexentry{Hoist!Glossary|hyperpage}{304}
+\indexentry{Glossary!Hoist|hyperpage}{304}
+\indexentry{Dehoist!Glossary|hyperpage}{304}
+\indexentry{Glossary!Dehoist|hyperpage}{304}
+\indexentry{Icon box!Glossary|hyperpage}{304}
+\indexentry{Glossary!Icon box|hyperpage}{304}
+\indexentry{Log pane!Glossary|hyperpage}{304}
+\indexentry{Glossary!Log pane|hyperpage}{304}
+\indexentry{Mark!Glossary|hyperpage}{304}
+\indexentry{Glossary!Mark|hyperpage}{304}
+\indexentry{Node!Glossary|hyperpage}{304}
+\indexentry{Glossary!Node|hyperpage}{304}
+\indexentry{Offspring!Glossary|hyperpage}{305}
+\indexentry{Glossary!Offspring|hyperpage}{305}
+\indexentry{Organizer node!Glossary|hyperpage}{305}
+\indexentry{Glossary!Organizer node|hyperpage}{305}
+\indexentry{Orphan node!Glossary|hyperpage}{305}
+\indexentry{Glossary!Orphan node|hyperpage}{305}
+\indexentry{Outline!Glossary|hyperpage}{305}
+\indexentry{Glossary!Outline|hyperpage}{305}
+\indexentry{Outline order!Glossary|hyperpage}{305}
+\indexentry{Glossary!Outline order|hyperpage}{305}
+\indexentry{Outline pane!Glossary|hyperpage}{305}
+\indexentry{Glossary!Outline pane|hyperpage}{305}
+\indexentry{Parent!Glossary|hyperpage}{305}
+\indexentry{Glossary!Parent|hyperpage}{305}
+\indexentry{Plugin!Glossary|hyperpage}{305}
+\indexentry{Glossary!Plugin|hyperpage}{305}
+\indexentry{Promote!Glossary|hyperpage}{305}
+\indexentry{Glossary!Promote|hyperpage}{305}
+\indexentry{reStructuredText!Glossary|hyperpage}{305}
+\indexentry{Glossary!reStructuredText|hyperpage}{305}
+\indexentry{rST!Glossary|hyperpage}{305}
+\indexentry{Glossary!rST|hyperpage}{305}
+\indexentry{Root!Glossary|hyperpage}{305}
+\indexentry{Glossary!Root|hyperpage}{305}
+\indexentry{Section!Glossary|hyperpage}{305}
+\indexentry{Glossary!Section|hyperpage}{305}
+\indexentry{Section definition!Glossary|hyperpage}{305}
+\indexentry{Glossary!Section definition|hyperpage}{305}
+\indexentry{Section definition node!Glossary|hyperpage}{305}
+\indexentry{Glossary!Section definition node|hyperpage}{305}
+\indexentry{Section name!Glossary|hyperpage}{306}
+\indexentry{Glossary!Section name|hyperpage}{306}
+\indexentry{Section reference!Glossary|hyperpage}{306}
+\indexentry{Glossary!Section reference|hyperpage}{306}
+\indexentry{Sentinel!Glossary|hyperpage}{306}
+\indexentry{Glossary!Sentinel|hyperpage}{306}
+\indexentry{Setting!Glossary|hyperpage}{306}
+\indexentry{Glossary!Setting|hyperpage}{306}
+\indexentry{Sibling!Glossary|hyperpage}{306}
+\indexentry{Glossary!Sibling|hyperpage}{306}
+\indexentry{Target language!Glossary|hyperpage}{306}
+\indexentry{Glossary!Target language|hyperpage}{306}
+\indexentry{Tree!Glossary|hyperpage}{306}
+\indexentry{Glossary!Tree|hyperpage}{306}
+\indexentry{Underindented Line!Glossary|hyperpage}{306}
+\indexentry{Glossary!Underindented Line|hyperpage}{306}
+\indexentry{View node!Glossary|hyperpage}{306}
+\indexentry{Glossary!View node|hyperpage}{306}

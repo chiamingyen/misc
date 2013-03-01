@@ -1,0 +1,139 @@
+.. rst3: filename: html\preface.html
+
+############
+前言
+############
+
+.. index:: 前言
+
+.. contents::
+    :depth: 2
+
+究竟為甚麼有人會對 Leo 編輯器感興趣? 畢竟,  Emacs 與 Vim 都是超級優
+的編輯器, 而且 Visual Studio 與 Eclipse 也都是很棒的 IDE's. Leo 憑甚麼與這
+麼強的對手競爭?  Leo 又提供了哪些其他工具所沒有的功能?
+
+Leo 確實具備一些特色 -- 是 Emacs, Vim, Visual Studio 與 Eclipse 所沒有的功能.
+當 Leo 用戶了解這些特色之後, 就會直呼 Aha! 這句 Aha 來自將程式, 設計與資料
+, 以前所未有的方式進行處理. 姑且稱之為"Leo 之道". 本質上, Leo 不只將程式, 設計與
+資料當作文字. 沒錯, 大家經常使用文字來表達程式, 設計與資料. 而大家也都以文字
+進行處理, 但是文字並不代表其中應該有的全部內涵.
+
+以 Leo 之道來看, 文字僅是隱身其中, 屬於更重要內涵的一種表象 (影子). 意在言外的重點
+可以稱之為"組織"或"架構"或"觀點"或甚至"結構體". 這裡我們以 **節點** 這個詞來
+表示 Leo 結構中的基本單元. 接下來讓我加以說明.
+
+以建築術語來說, 節點就如同建築物所使用的磚塊. 若在計算機程式術語來說, 節點組成
+方法, 類別, 檔案與整個應用程式. 因此所謂的"節點" 並*不*是一個固定的意涵
+ - 而只是組織中的一個單元. 任一節點都能從其他節點來建構, 而且任一節點也都能
+ 為其他節點所用. Leo 直接將節點表示為大綱中的節點 (標題). 每一個大綱節點都包含
+ 標題 (headline) 與內文 (body text).  **大綱視窗**列出所有的標題; 而**內文視窗**則列出
+ 目前所選標題對應的內文.
+
+.. links...
+.. _`SourceForge`:      http://sourceforge.net/projects/leo/
+.. _`noweb`:            http://www.eecs.harvard.edu/~nr/noweb/
+.. _reStructuredText:   http://docutils.sourceforge.net/rst.html
+
+.. _outline:            intro.html#introduction
+.. _plugins:            intro.html#plugins-settings
+.. _scripting:          intro.html#scripting-leo
+.. _users:              http://sourceforge.net/projects/leo/
+
+.. _`cloned nodes`:     intro.html#clones-views
+.. _`external files`:   intro.html#external-files
+
+.. _`Using the Rst3 Plugin`:           rstplugin3.html
+
+綱要結構為真實資料
++++++++++++++++++++++++++++
+
+再重申一次: Leo 中最基本單元並*不是*文字. 當然, 標題與內文都*包含*
+文字, 但是節點卻不是文字, 而是貨真價實的 (Python) 物件.
+這代表幾個特點:
+
+1. 由於節點為真實的物件, Leo 指令知道節點的內容而且在整個大綱中的位置. 
+待會再來看大綱組織, 這裡先舉個例子. 每一個節點正好有一個父節點, (除了最頂層的節點外)
+並且每一個節點都擁有零個或更多子節點, 以及零個或更多下屬節點.
+一個節點的父, 子與下屬都是該節點的真實屬性, 並且完全獨立於該節點的標題或內文.
+
+並且, 任一 Leo 指令 (或使用者所寫的程式與延伸套件) 都能*輕易*擷取某一標題的所有
+內涵, 而*無需*解讀節點內容. 指令, 程式碼與延伸套件都能輕易完成下列事項:
+取得大綱的根節點, 大綱中所選擇的節點, 父節點, 下屬節點, 子節點或上屬節點等.
+同時也能輕易插入, 刪除, 或移動節點, 也能變更任何節點的標題或內文. 所有
+這些動作都*無需*解讀節點文字內容.
+
+2. 將節點視為真實物件代表指令與延伸套件都能將標題文字視為與內文*完全不同*的屬性.
+此一特性將標題文字解讀為內文的簡要說明. 這點非常重要! 標題經常用來控制 Leo 的指令.
+例如, 標題以 @file, @asis, @auto 等開頭, 就可以用來引導 Leo 控制讀寫指令.
+以 @test, @suite 與 @mark-for-unit-tests 開頭的標題, 則可用來執行 Leo 的單元測試.
+並且, 也能輕易讓使用者建立新的標題規範, 用來控制使用者所寫的程式碼或延伸套件.
+例如, 延伸套件定義以 @url, @rst, @bookmark, @slideshow 等開頭的標題功能. 因此
+將標題與內文分開而且**當作真實節點物件** 的設計, 其實才是重點.
+
+3. 另外值得一提的還有 Leo 程式延伸所提供的 @button 按鈕設計. 若標題為 @button 
+<<指令名稱>>, 其內文帶有一組程式碼. 當 Leo 開啟一個 Leo 標題, 每一個 @button 節點可
+建立一個指令與圖像. 按下圖像 (或執行該指令) 就會讓所選擇的標題執行這段程式.
+換言之, 程式的執行可以隨心所欲套用在所選擇的大綱某一部分. 讓使用者可以"套用程式到某一資料",
+亦即大綱內容的任何一部分. 尤其, 這也讓建立**編輯程式**來自動套用變得更加簡易, 而無需重複執行
+繁瑣無趣的程式編輯任務.
+
+Leo 綱要非一般綱要
++++++++++++++++++++++++++
+
+Earlier I said that *any* node can be built from other nodes, and *any* node can
+be used by any other node. It takes a very special kind of outline for this to
+be possible. In a typical outline, such as Emacs outline mode, for example,
+nodes appear exactly once in the outline. This makes it impossible to 'reuse'
+nodes in multiple places. Leo removes that limitation: any outline node can be
+**cloned**, and clones can appear in as many places in an outline as you like.
+Although clones may look distinct on the screen, at the data level
+**each clone is exactly the same node**.
+
+Earlier I said that you can think of nodes as representing 'organization' or
+'structure' or 'views' or even 'architecture'. Clones are the crucial feature
+that allows this point of view. For example, we can build up multiple 'views' of
+data in an outline using clones as follows:
+
+- Create a 'view node' that will represent a *user-specified* view.
+
+- Clone all nodes that are to be part of the view, and move them so that each
+  clone is a child of the view node.
+
+That's about all there is to it. The view node, and its children *is* a new view
+of the outline. This notion of 'view' is so important that Leo supports it
+directly. Leo's **chapters** are simply views created as I have just described.
+When you select one chapter, you only see the nodes of that chapter in Leo's
+outline pane.
+
+結論與鼓勵
++++++++++++++++
+
+So Leo offers a new way to understand, organize and manipulate *any* kind of
+complex data, including computer programs, *designs* of computer programs, web
+sites, personal data, whatever. The Aha that I invite you to experience is this:
+Outlines are more than mere eye candy. Having organization be real data creates
+an entirely new dimension, literally and figuratively, in computer programming,
+computer design and data organization, including web-site design, database
+design, etc. Leo's commands use headline and body text in many creative ways. So
+can you and your scripts. It's easy, it's fun, and it's revolutionary.
+
+That's about it, except for some words of caution and advice:
+
+1. Leo has been under active development for over 10 years. The new world
+   created by nodes is rich and varied. You won't learn it all in a day or so.
+   Please be patient. Start by learning Leo's basic features as explained in the
+   tutorial. You can learn more advanced features later.
+
+2. Those of you who are comfortable with Emacs should feel pretty much at home
+   with Leo. Leo has shamelessly stolen the best features of Emacs, including
+   the minibuffer and many Emacs-like commands.
+
+3. For those of you who are *not* comfortable with Emacs, please understand that
+   you do *not* need to understand all of Leo's commands in order to use Leo.
+   Start by ignoring the minibuffer. Later, the minibuffer can become your
+   friend, but you can get the Aha! without it.
+
+Edward K. Ream
+July, 2007
+

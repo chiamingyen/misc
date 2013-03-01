@@ -1,0 +1,51 @@
+##encoding: utf-8
+## 兩個 pound signs 在 Mako 語法中為註解行
+## 多行註解則使用
+<%doc>
+    這是註解
+    使用 <%! %> 表示在模組層次運作的 Python 程式碼, 可以用來 import 模組或定義相關的函式或物件
+</%doc>
+
+<html>
+        <head>
+                <title>Cherrypy Mako 表單測試</title>
+        </head>
+        <body>
+<style type="text/css" media="all">
+@import "templates/style/base.css";
+</style>  
+## 以下為一般的 Python 程式碼, 若是一般的運作則需要將 rows 數列傳進套稿中, 以便 render 頁面
+<%
+    outString = '''
+    <form method="post" action="doAct" enctype="multipart/form-data">
+    
+    學號:<input type="text" name="stud_number"
+    '''
+    if (stud_number != None):
+        outString += ''' value="'''+str(stud_number)+'''"><br />'''
+    else:
+        outString += '''><br />'''
+    
+    outString += '''
+    姓名:<input type="text" name="stud_name"
+    '''
+    if (stud_name != None):
+        outString += ''' value="'''+str(stud_name)+'''"><br />'''
+    else:
+        outString += '''><br />'''
+%>
+資料新增表單(來自 Mako) <br /><br />
+${outString}
+## CherryPy 送出 st_array 數列資料
+## 應該要先將 table 資料由左至右的排列序號, 傳道 Mako, 然後利用以下迴圈將資料列印成表格
+    高中科系:<input type="text" name="school_dept"><br />
+    專長:<input type="text" name="major"><br />
+    預計薪資:<input type="text" name="expt_salary"><br />
+    檔案:<input type="file" name="fileupload"><br />
+    <input type="submit" value="新增">
+    <input type="reset" value="重填">
+    </form>
+
+<%include file="menulink.html"/>
+        </body>
+</html>

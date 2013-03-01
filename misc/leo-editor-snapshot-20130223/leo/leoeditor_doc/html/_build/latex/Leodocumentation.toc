@@ -1,0 +1,687 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Front Matter}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Acknowledgements}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Leo's MIT License}{4}{section.1.2}
+\contentsline {chapter}{\numberline {2}前言}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}綱要結構為真實資料}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Leo 綱要非一般綱要}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}結論與鼓勵}{7}{section.2.3}
+\contentsline {chapter}{\numberline {3}What People Are Saying About Leo}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Leo is revolutionary}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Leo is a showcase Python application}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Leo is fun, even addicting}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Leo is a flexible, powerful IDE}{10}{section.3.4}
+\contentsline {section}{\numberline {3.5}Leo is a superb outliner}{11}{section.3.5}
+\contentsline {section}{\numberline {3.6}Leo is an excellent PIM}{11}{section.3.6}
+\contentsline {section}{\numberline {3.7}Leo is a superb documentation tool}{12}{section.3.7}
+\contentsline {section}{\numberline {3.8}Leo simplifies the understanding of complex systems}{12}{section.3.8}
+\contentsline {section}{\numberline {3.9}Leo is stable, well designed and well supported}{13}{section.3.9}
+\contentsline {section}{\numberline {3.10}Longer quotes...}{13}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Speed Ream's slashdot article}{13}{subsection.3.10.1}
+\contentsline {subsection}{\numberline {3.10.2}Joe Orr}{14}{subsection.3.10.2}
+\contentsline {subsection}{\numberline {3.10.3}Dan Winkler}{15}{subsection.3.10.3}
+\contentsline {subsection}{\numberline {3.10.4}Dan Winkler 2}{16}{subsection.3.10.4}
+\contentsline {subsection}{\numberline {3.10.5}Dan Winkler 3}{16}{subsection.3.10.5}
+\contentsline {chapter}{\numberline {4}FAQ}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Getting Leo}{21}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Where can I get official releases of Leo?}{21}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}How do I use bzr to get the latest sources from Leo's launchpad site?}{21}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}How can I get recent bzr snapshots of Leo?}{21}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Installing Leo}{22}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Leo's installer failed, what do I do?}{22}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Nothing (or almost nothing) happens when I start Leo. What should I do?}{22}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Running Python setup.py install from the leo directory doesn't work. Why not?}{22}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Learning to use Leo}{22}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}What's the best way to learn to use Leo?}{22}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Why should I use clones?}{22}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}When is using a section better than using a method?}{23}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}When is deleting a node dangerous?}{23}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Why doesn't Leo support cross-file clones?}{24}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}How does EKR (Leo's developer) use Leo?}{24}{subsection.4.3.6}
+\contentsline {subsubsection}{Overview}{24}{subsubsection*.3}
+\contentsline {subsubsection}{Additional tips}{25}{subsubsection*.4}
+\contentsline {subsubsection}{Writing documentation}{25}{subsubsection*.5}
+\contentsline {subsubsection}{Administrative tips}{26}{subsubsection*.6}
+\contentsline {subsubsection}{Tips for using bzr}{26}{subsubsection*.7}
+\contentsline {subsection}{\numberline {4.3.7}How does Leo handle clone conflicts?}{26}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}Leo in Shared environments}{27}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}How should I use Leo with bzr/git/hg/svn/cvs?}{27}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}How can I use Leo cooperatively without sentinels?}{27}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}What's the recommended way to upgrade Leo?}{27}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Using external files}{27}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}How do I inhibit sentinels in external files?}{27}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}How do I prevent Leo from expanding sections?}{28}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}How can I create Javascript comments?}{28}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}How can I disable PHP comments?}{28}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}How can I use Leo with unsupported languages?}{29}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}How do I make external files start with a shebang line?}{29}{subsection.4.5.6}
+\contentsline {subsection}{\numberline {4.5.7}Can @file trees contain material not in the external file?}{30}{subsection.4.5.7}
+\contentsline {subsection}{\numberline {4.5.8}How can I use Leo with older C compilers}{30}{subsection.4.5.8}
+\contentsline {subsection}{\numberline {4.5.9}Why can't I use @ignore directives in @file trees?}{30}{subsection.4.5.9}
+\contentsline {subsection}{\numberline {4.5.10}How can I avoid getting long lines in external files?}{31}{subsection.4.5.10}
+\contentsline {section}{\numberline {4.6}Customizing Leo}{31}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}How can I add support for a new language?}{31}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}How do I submit a plugin?}{31}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}How do I add a new menu item from a plugin?}{31}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}How can I use Leo's legacy key bindings?}{32}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}How can I enable and disable support for psyco?}{32}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.6}How do I specify qt fonts?}{32}{subsection.4.6.6}
+\contentsline {subsection}{\numberline {4.6.7}How do I set selection colors?}{32}{subsection.4.6.7}
+\contentsline {section}{\numberline {4.7}Tips and techniques}{33}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}What is an easy way to profile code?}{33}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}How can I do a simple find and replace?}{34}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}How can I use Leo to develop Leo itself?}{34}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}How can I import many files at once?}{35}{subsection.4.7.4}
+\contentsline {subsection}{\numberline {4.7.5}How can I use two copies of Leo to advantage?}{35}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.6}How can I display graphics in Leo?}{35}{subsection.4.7.6}
+\contentsline {subsection}{\numberline {4.7.7}How can I create a template .leo file?}{36}{subsection.4.7.7}
+\contentsline {subsection}{\numberline {4.7.8}How can I show Leo files with Excel?}{36}{subsection.4.7.8}
+\contentsline {subsection}{\numberline {4.7.9}How can I reuse @button nodes in multiple files?}{37}{subsection.4.7.9}
+\contentsline {subsection}{\numberline {4.7.10}How can I restore focus without using the mouse}{37}{subsection.4.7.10}
+\contentsline {subsection}{\numberline {4.7.11}How can I make commonly-used scripts widely accessible?}{38}{subsection.4.7.11}
+\contentsline {subsection}{\numberline {4.7.12}How can I use BibTeX citations from Leo?}{38}{subsection.4.7.12}
+\contentsline {section}{\numberline {4.8}Trouble shooting}{38}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}How do I get help?}{38}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}How do I report bugs?}{38}{subsection.4.8.2}
+\contentsline {subsection}{\numberline {4.8.3}My old .leo files won't load using Leo 4.5 or later. What should I do?}{39}{subsection.4.8.3}
+\contentsline {subsection}{\numberline {4.8.4}Error messages from the rst3 plugin aren't helpful. What can I do?}{39}{subsection.4.8.4}
+\contentsline {subsection}{\numberline {4.8.5}How can I run Leo from a console window?}{40}{subsection.4.8.5}
+\contentsline {subsection}{\numberline {4.8.6}How can I use Python's pdb debugger with Leo?}{40}{subsection.4.8.6}
+\contentsline {subsection}{\numberline {4.8.7}I can't write Imported files. What's going on?}{40}{subsection.4.8.7}
+\contentsline {subsection}{\numberline {4.8.8}Nothing (or almost nothing) happens when I start Leo. What should I do?}{40}{subsection.4.8.8}
+\contentsline {subsection}{\numberline {4.8.9}The new Python decorator syntax causes problems. What can I do?}{41}{subsection.4.8.9}
+\contentsline {subsection}{\numberline {4.8.10}Running Python setup.py install from the leo directory doesn't work. Why not?}{41}{subsection.4.8.10}
+\contentsline {subsection}{\numberline {4.8.11}I can't run the LeoBridge module outside of leo/core. What should I do?}{41}{subsection.4.8.11}
+\contentsline {subsection}{\numberline {4.8.12}Why didn't Leo update my @shadow outline as expected?}{42}{subsection.4.8.12}
+\contentsline {subsection}{\numberline {4.8.13}Why do Qt windows disappear in my scripts?}{42}{subsection.4.8.13}
+\contentsline {section}{\numberline {4.9}Unicode issues}{42}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}I can not enter non-ascii characters. What can I do?}{42}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Some characters in external files look funny. What can I do?}{42}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}I get weird results when defining unicode strings in scripts. What is going on?}{43}{subsection.4.9.3}
+\contentsline {subsection}{\numberline {4.9.4}Some characters are garbled when importing files. What can I do?}{43}{subsection.4.9.4}
+\contentsline {subsection}{\numberline {4.9.5}Python's print statement shows `byte hash' for unicode characters. What can I do?}{43}{subsection.4.9.5}
+\contentsline {chapter}{\numberline {5}Slides}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Basic slide shows}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}Intermediate slide shows}{45}{section.5.2}
+\contentsline {chapter}{\numberline {6}Installing Leo}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}Required and optional packages}{47}{section.6.1}
+\contentsline {section}{\numberline {6.2}Installing other packages}{48}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Installing Python}{48}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Installing Qt}{48}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Installing PyEnchant}{48}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Installing Leo itself}{48}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Installing Leo on Windows}{49}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Installing Leo on Linux}{49}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Installing Leo on MacOs 10.7 Lion}{49}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Installing Leo with bzr}{50}{subsection.6.3.4}
+\contentsline {section}{\numberline {6.4}Running Leo}{51}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Running Leo the first time}{52}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Running Leo in batch mode}{52}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Running Leo from a console window}{52}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}The .leo directory}{52}{subsection.6.4.4}
+\contentsline {chapter}{\numberline {7}The Leo Tutorial}{55}{chapter.7}
+\contentsline {section}{\numberline {7.1}Leo's main window}{56}{section.7.1}
+\contentsline {section}{\numberline {7.2}External files and @file nodes}{58}{section.7.2}
+\contentsline {section}{\numberline {7.3}Creating external files from outlines}{59}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Section references}{59}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}The @others directive}{60}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}The @all directive}{60}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Choosing between @others and sections}{60}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Organizing programs as outlines}{61}{subsection.7.3.5}
+\contentsline {section}{\numberline {7.4}Clones \& views}{62}{section.7.4}
+\contentsline {section}{\numberline {7.5}More about directives}{62}{section.7.5}
+\contentsline {section}{\numberline {7.6}Scripting, extending and customizing Leo}{64}{section.7.6}
+\contentsline {section}{\numberline {7.7}Summary}{65}{section.7.7}
+\contentsline {section}{\numberline {7.8}Further study}{65}{section.7.8}
+\contentsline {chapter}{\numberline {8}Using Leo}{67}{chapter.8}
+\contentsline {section}{\numberline {8.1}The minibuffer and minibuffer commands}{69}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Basic editing commands}{70}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Debugging commands}{71}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Emacs commands}{71}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Find commands}{74}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Gui commands}{75}{subsection.8.1.5}
+\contentsline {subsection}{\numberline {8.1.6}Help commands}{77}{subsection.8.1.6}
+\contentsline {subsection}{\numberline {8.1.7}Mode commands}{77}{subsection.8.1.7}
+\contentsline {subsection}{\numberline {8.1.8}Outline commands}{78}{subsection.8.1.8}
+\contentsline {subsection}{\numberline {8.1.9}Miscellaneous commands}{80}{subsection.8.1.9}
+\contentsline {section}{\numberline {8.2}Autocompletion}{81}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Starting autocompletion}{82}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Using the QCompleter}{82}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Using the Log pane completer}{82}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Showing docstrings}{83}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}Autocompleter settings}{84}{subsection.8.2.5}
+\contentsline {subsection}{\numberline {8.2.6}Creating ctags data}{84}{subsection.8.2.6}
+\contentsline {section}{\numberline {8.3}Calltips}{85}{section.8.3}
+\contentsline {section}{\numberline {8.4}File commands}{85}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Loading, Saving and Reverting Files}{85}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Communicating with external editors}{86}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Importing Files into Leo Outlines}{86}{subsection.8.4.3}
+\contentsline {subsection}{\numberline {8.4.4}Exporting Files from Leo Outlines}{86}{subsection.8.4.4}
+\contentsline {subsection}{\numberline {8.4.5}Quitting Leo}{86}{subsection.8.4.5}
+\contentsline {section}{\numberline {8.5}Edit commands}{86}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Undoing changes}{86}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Cutting, pasting and selecting text}{87}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Indenting body text}{87}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Adding and deleting comments in body text}{87}{subsection.8.5.4}
+\contentsline {subsection}{\numberline {8.5.5}Creating nodes from body text}{87}{subsection.8.5.5}
+\contentsline {subsection}{\numberline {8.5.6}Converting leading blanks and tabs in body text}{87}{subsection.8.5.6}
+\contentsline {subsection}{\numberline {8.5.7}Executing Python scripts in body text}{88}{subsection.8.5.7}
+\contentsline {subsection}{\numberline {8.5.8}Finding and changing text}{88}{subsection.8.5.8}
+\contentsline {subsubsection}{Overview}{88}{subsubsection*.10}
+\contentsline {subsubsection}{Basic searches}{88}{subsubsection*.11}
+\contentsline {subsubsection}{find-all, clone-find-all \& clone-find-all-flattened}{88}{subsubsection*.12}
+\contentsline {subsubsection}{Change commands}{89}{subsubsection*.13}
+\contentsline {subsubsection}{Incremental find commands}{89}{subsubsection*.14}
+\contentsline {subsubsection}{Commands that set find options}{89}{subsubsection*.15}
+\contentsline {subsubsection}{Word search and regex search commands}{89}{subsubsection*.16}
+\contentsline {subsubsection}{Find settings}{90}{subsubsection*.17}
+\contentsline {subsection}{\numberline {8.5.9}Go To Line Number}{90}{subsection.8.5.9}
+\contentsline {subsection}{\numberline {8.5.10}Inserting the date and time}{91}{subsection.8.5.10}
+\contentsline {subsection}{\numberline {8.5.11}Reformatting paragraphs in body text}{91}{subsection.8.5.11}
+\contentsline {subsection}{\numberline {8.5.12}Matching brackets and parenthesis}{91}{subsection.8.5.12}
+\contentsline {subsection}{\numberline {8.5.13}Indenting body text automatically}{91}{subsection.8.5.13}
+\contentsline {subsection}{\numberline {8.5.14}Creating and destroying multiple body editors}{92}{subsection.8.5.14}
+\contentsline {subsection}{\numberline {8.5.15}Opening URL's}{92}{subsection.8.5.15}
+\contentsline {subsection}{\numberline {8.5.16}Using chapters}{92}{subsection.8.5.16}
+\contentsline {section}{\numberline {8.6}Outline commands}{93}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Creating and destroying nodes}{93}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}Expanding \& contracting nodes}{93}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}Cutting, pasting and deleting nodes}{93}{subsection.8.6.3}
+\contentsline {subsection}{\numberline {8.6.4}Navigating through the outline}{94}{subsection.8.6.4}
+\contentsline {subsection}{\numberline {8.6.5}Moving \& Reorganizing nodes}{94}{subsection.8.6.5}
+\contentsline {subsection}{\numberline {8.6.6}Cloning nodes}{94}{subsection.8.6.6}
+\contentsline {subsection}{\numberline {8.6.7}Marking nodes}{94}{subsection.8.6.7}
+\contentsline {subsection}{\numberline {8.6.8}Dragging nodes}{94}{subsection.8.6.8}
+\contentsline {subsection}{\numberline {8.6.9}Hoisting \& De-hoisting nodes}{95}{subsection.8.6.9}
+\contentsline {subsection}{\numberline {8.6.10}Checking outlines}{95}{subsection.8.6.10}
+\contentsline {subsection}{\numberline {8.6.11}Resizing panes}{95}{subsection.8.6.11}
+\contentsline {section}{\numberline {8.7}Window commands}{95}{section.8.7}
+\contentsline {section}{\numberline {8.8}Help commands}{96}{section.8.8}
+\contentsline {chapter}{\numberline {9}Customizing Leo}{97}{chapter.9}
+\contentsline {section}{\numberline {9.1}Specifying settings}{97}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Configuration directories}{98}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Search order for settings files}{98}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Safe rules for local settings}{99}{subsection.9.1.3}
+\contentsline {subsection}{\numberline {9.1.4}Organizer nodes}{99}{subsection.9.1.4}
+\contentsline {subsection}{\numberline {9.1.5}@ignore and @if nodes}{100}{subsection.9.1.5}
+\contentsline {subsection}{\numberline {9.1.6}Simple settings nodes}{100}{subsection.9.1.6}
+\contentsline {subsection}{\numberline {9.1.7}Complex settings nodes}{101}{subsection.9.1.7}
+\contentsline {subsubsection}{@button}{101}{subsubsection*.18}
+\contentsline {subsubsection}{@commands}{101}{subsubsection*.19}
+\contentsline {subsubsection}{@data}{101}{subsubsection*.20}
+\contentsline {subsubsection}{@enabled-plugins}{101}{subsubsection*.21}
+\contentsline {subsubsection}{@font}{102}{subsubsection*.22}
+\contentsline {subsubsection}{@menuat}{102}{subsubsection*.23}
+\contentsline {subsubsection}{@menus}{103}{subsubsection*.24}
+\contentsline {subsubsection}{@mode}{103}{subsubsection*.25}
+\contentsline {subsubsection}{@recentfiles}{104}{subsubsection*.26}
+\contentsline {subsubsection}{@shortcuts}{104}{subsubsection*.27}
+\contentsline {section}{\numberline {9.2}Input modes}{104}{section.9.2}
+\contentsline {section}{\numberline {9.3}Adding extensible attributes to nodes and .leo files}{105}{section.9.3}
+\contentsline {section}{\numberline {9.4}Translating Leo's menus and messages}{106}{section.9.4}
+\contentsline {section}{\numberline {9.5}Writing new importers}{106}{section.9.5}
+\contentsline {chapter}{\numberline {10}Controlling Syntax Coloring}{109}{chapter.10}
+\contentsline {section}{\numberline {10.1}Syntax coloring settings}{110}{section.10.1}
+\contentsline {section}{\numberline {10.2}Files}{111}{section.10.2}
+\contentsline {section}{\numberline {10.3}The colorizer's inner loop}{112}{section.10.3}
+\contentsline {section}{\numberline {10.4}Format of colorizer control files}{112}{section.10.4}
+\contentsline {subsection}{\numberline {10.4.1}Ruleset names}{113}{subsection.10.4.1}
+\contentsline {subsection}{\numberline {10.4.2}x.properties}{113}{subsection.10.4.2}
+\contentsline {subsection}{\numberline {10.4.3}Attribute dictionaries and x.attributesDictDict}{113}{subsection.10.4.3}
+\contentsline {subsection}{\numberline {10.4.4}Keyword dictionaries and x.keywordsDictDict}{114}{subsection.10.4.4}
+\contentsline {subsection}{\numberline {10.4.5}Rules, rules dictionaries and x.rulesDictDict}{115}{subsection.10.4.5}
+\contentsline {subsection}{\numberline {10.4.6}x.importDict and imported versus delegated rulesets}{117}{subsection.10.4.6}
+\contentsline {section}{\numberline {10.5}Rule methods}{118}{section.10.5}
+\contentsline {subsection}{\numberline {10.5.1}Arguments to rule methods}{118}{subsection.10.5.1}
+\contentsline {subsection}{\numberline {10.5.2}match\_eol\_span}{118}{subsection.10.5.2}
+\contentsline {subsection}{\numberline {10.5.3}match\_eol\_span\_regexp}{119}{subsection.10.5.3}
+\contentsline {subsection}{\numberline {10.5.4}match\_keywords}{119}{subsection.10.5.4}
+\contentsline {subsection}{\numberline {10.5.5}match\_mark\_following}{119}{subsection.10.5.5}
+\contentsline {subsection}{\numberline {10.5.6}match\_mark\_previous}{120}{subsection.10.5.6}
+\contentsline {subsection}{\numberline {10.5.7}match\_seq}{120}{subsection.10.5.7}
+\contentsline {subsection}{\numberline {10.5.8}match\_seq\_regexp}{120}{subsection.10.5.8}
+\contentsline {subsection}{\numberline {10.5.9}match\_span}{121}{subsection.10.5.9}
+\contentsline {subsection}{\numberline {10.5.10}match\_span\_regexp}{121}{subsection.10.5.10}
+\contentsline {subsection}{\numberline {10.5.11}match\_terminate}{121}{subsection.10.5.11}
+\contentsline {chapter}{\numberline {11}Creating Documents with Leo}{123}{chapter.11}
+\contentsline {section}{\numberline {11.1}Tutorial}{124}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Step 1: Create the @rst node}{125}{subsection.11.1.1}
+\contentsline {subsubsection}{Set global options}{125}{subsubsection*.30}
+\contentsline {subsubsection}{Set your document's title}{126}{subsubsection*.31}
+\contentsline {subsection}{\numberline {11.1.2}Step 2: Write your document}{126}{subsection.11.1.2}
+\contentsline {subsection}{\numberline {11.1.3}Step 3: Run the rst3 command}{127}{subsection.11.1.3}
+\contentsline {subsection}{\numberline {11.1.4}Go forth and experiment}{127}{subsection.11.1.4}
+\contentsline {section}{\numberline {11.2}Options}{127}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}General options}{127}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Headline commands}{129}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Option doc parts}{130}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.4}Defaults for options}{130}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.5}Http plugin options}{130}{subsection.11.2.5}
+\contentsline {subsection}{\numberline {11.2.6}Section expansion options}{131}{subsection.11.2.6}
+\contentsline {section}{\numberline {11.3}Other topics}{132}{section.11.3}
+\contentsline {subsection}{\numberline {11.3.1}Markup doc parts}{132}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.3.2}Required cascading style sheets}{132}{subsection.11.3.2}
+\contentsline {section}{\numberline {11.4}Further study}{132}{section.11.4}
+\contentsline {section}{\numberline {11.5}Acknowledgements}{132}{section.11.5}
+\contentsline {section}{\numberline {11.6}Theory of operation}{133}{section.11.6}
+\contentsline {chapter}{\numberline {12}Scripting Leo with Python}{135}{chapter.12}
+\contentsline {section}{\numberline {12.1}Basics}{137}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}c, g and p}{137}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Import objects}{137}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.3}g.es writes to the log pane}{137}{subsection.12.1.3}
+\contentsline {subsection}{\numberline {12.1.4}p.h and p.b}{138}{subsection.12.1.4}
+\contentsline {subsection}{\numberline {12.1.5}c.redraw}{138}{subsection.12.1.5}
+\contentsline {subsection}{\numberline {12.1.6}p.copy}{139}{subsection.12.1.6}
+\contentsline {subsection}{\numberline {12.1.7}Generators}{139}{subsection.12.1.7}
+\contentsline {subsubsection}{c.all\_positions \& c.all\_unique\_positions}{140}{subsubsection*.32}
+\contentsline {subsubsection}{p.children}{140}{subsubsection*.33}
+\contentsline {subsubsection}{p.parents \& p.self\_and\_parents}{140}{subsubsection*.34}
+\contentsline {subsubsection}{p.siblings \& p.following\_siblings}{140}{subsubsection*.35}
+\contentsline {subsubsection}{p.subtree \& p.self\_and\_subtree}{141}{subsubsection*.36}
+\contentsline {subsection}{\numberline {12.1.8}Testing whether a position is valid}{141}{subsection.12.1.8}
+\contentsline {subsection}{\numberline {12.1.9}g.pdb}{141}{subsection.12.1.9}
+\contentsline {subsection}{\numberline {12.1.10}@button scripts}{142}{subsection.12.1.10}
+\contentsline {subsection}{\numberline {12.1.11}autocompletion}{142}{subsection.12.1.11}
+\contentsline {subsection}{\numberline {12.1.12}Summary}{143}{subsection.12.1.12}
+\contentsline {subsubsection}{Iterators}{143}{subsubsection*.37}
+\contentsline {subsubsection}{Getters}{144}{subsubsection*.38}
+\contentsline {subsubsection}{Setters}{144}{subsubsection*.39}
+\contentsline {section}{\numberline {12.2}Event handlers}{145}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Enabling idle time event handlers}{149}{subsection.12.2.1}
+\contentsline {section}{\numberline {12.3}Other topics}{149}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}g.app.windowList: the list of all open frames}{149}{subsection.12.3.1}
+\contentsline {subsection}{\numberline {12.3.2}Ensuring that positions are valid}{149}{subsection.12.3.2}
+\contentsline {subsection}{\numberline {12.3.3}g.openWithFileName}{150}{subsection.12.3.3}
+\contentsline {subsection}{\numberline {12.3.4}g.getScript}{150}{subsection.12.3.4}
+\contentsline {subsection}{\numberline {12.3.5}c.frame.body.bodyCtrl}{150}{subsection.12.3.5}
+\contentsline {subsection}{\numberline {12.3.6}Invoking commands from scripts}{150}{subsection.12.3.6}
+\contentsline {subsection}{\numberline {12.3.7}Getting settings from @settings trees}{151}{subsection.12.3.7}
+\contentsline {subsection}{\numberline {12.3.8}Preferences ivars}{151}{subsection.12.3.8}
+\contentsline {subsection}{\numberline {12.3.9}Functions defined in leoGlobals.py}{152}{subsection.12.3.9}
+\contentsline {subsection}{\numberline {12.3.10}Making operations undoable}{152}{subsection.12.3.10}
+\contentsline {subsection}{\numberline {12.3.11}Redirecting output from scripts}{152}{subsection.12.3.11}
+\contentsline {subsection}{\numberline {12.3.12}Creating Qt Windows from Leo scripts}{153}{subsection.12.3.12}
+\contentsline {subsection}{\numberline {12.3.13}Writing to different log tabs}{154}{subsection.12.3.13}
+\contentsline {subsection}{\numberline {12.3.14}Invoking dialogs using the g.app.gui class}{154}{subsection.12.3.14}
+\contentsline {subsection}{\numberline {12.3.15}Inserting and deleting icons}{154}{subsection.12.3.15}
+\contentsline {subsection}{\numberline {12.3.16}Working with directives and paths}{155}{subsection.12.3.16}
+\contentsline {subsection}{\numberline {12.3.17}Running Leo in batch mode}{155}{subsection.12.3.17}
+\contentsline {subsection}{\numberline {12.3.18}Getting interactive input from scripts}{156}{subsection.12.3.18}
+\contentsline {subsection}{\numberline {12.3.19}The @g.command decorator}{157}{subsection.12.3.19}
+\contentsline {subsection}{\numberline {12.3.20}Modifying plugins with @script scripts}{158}{subsection.12.3.20}
+\contentsline {subsection}{\numberline {12.3.21}Creating minimal outlines}{158}{subsection.12.3.21}
+\contentsline {subsection}{\numberline {12.3.22}Retaining pointers to Qt windows}{159}{subsection.12.3.22}
+\contentsline {chapter}{\numberline {13}Plugins}{161}{chapter.13}
+\contentsline {section}{\numberline {13.1}Enabling plugins}{163}{section.13.1}
+\contentsline {section}{\numberline {13.2}Summary}{163}{section.13.2}
+\contentsline {section}{\numberline {13.3}Gui-independent plugins}{166}{section.13.3}
+\contentsline {subsection}{\numberline {13.3.1}Commands \& directives}{166}{subsection.13.3.1}
+\contentsline {subsubsection}{add\_directives.py}{166}{subsubsection*.40}
+\contentsline {subsubsection}{bzr\_qcommands.py}{166}{subsubsection*.41}
+\contentsline {subsubsection}{empty\_leo\_file.py}{166}{subsubsection*.42}
+\contentsline {subsubsection}{import\_cisco\_config.py}{166}{subsubsection*.43}
+\contentsline {subsubsection}{initinclass.py}{167}{subsubsection*.44}
+\contentsline {subsubsection}{leo\_interface.py}{167}{subsubsection*.45}
+\contentsline {subsubsection}{lineNumbers.py}{167}{subsubsection*.46}
+\contentsline {subsubsection}{macros.py}{167}{subsubsection*.47}
+\contentsline {subsubsection}{mod\_autosave.py}{168}{subsubsection*.48}
+\contentsline {subsubsection}{mod\_read\_dir\_outline.py}{168}{subsubsection*.49}
+\contentsline {subsubsection}{mod\_timestamp.py}{168}{subsubsection*.50}
+\contentsline {subsubsection}{nodeActions.py}{169}{subsubsection*.51}
+\contentsline {subsubsection}{outline\_export.py}{171}{subsubsection*.52}
+\contentsline {subsubsection}{paste\_as\_headlines.py}{171}{subsubsection*.53}
+\contentsline {subsubsection}{pretty\_print.py}{172}{subsubsection*.54}
+\contentsline {subsubsection}{quickMove.py}{172}{subsubsection*.55}
+\contentsline {subsubsection}{setHomeDirectory.py}{173}{subsubsection*.56}
+\contentsline {subsubsection}{word\_count.py}{173}{subsubsection*.57}
+\contentsline {subsection}{\numberline {13.3.2}Debugging}{173}{subsection.13.3.2}
+\contentsline {subsubsection}{debugger\_pudb.py}{173}{subsubsection*.58}
+\contentsline {subsubsection}{dump\_globals.py}{173}{subsubsection*.59}
+\contentsline {subsubsection}{enable\_gc.py}{173}{subsubsection*.60}
+\contentsline {subsubsection}{quit\_leo.py}{173}{subsubsection*.61}
+\contentsline {subsubsection}{trace\_gc\_plugin.py}{174}{subsubsection*.62}
+\contentsline {subsubsection}{trace\_keys.py}{174}{subsubsection*.63}
+\contentsline {subsubsection}{trace\_tags.py}{174}{subsubsection*.64}
+\contentsline {subsection}{\numberline {13.3.3}External programs}{174}{subsection.13.3.3}
+\contentsline {subsubsection}{ipython.py}{174}{subsubsection*.65}
+\contentsline {subsubsection}{mod\_tempfname.py}{174}{subsubsection*.66}
+\contentsline {subsubsection}{open\_shell.py}{174}{subsubsection*.67}
+\contentsline {subsubsection}{tomboy\_import.py}{175}{subsubsection*.68}
+\contentsline {subsubsection}{vim.py}{175}{subsubsection*.69}
+\contentsline {subsubsection}{xemacs.py}{176}{subsubsection*.70}
+\contentsline {subsubsection}{word\_export.py}{176}{subsubsection*.71}
+\contentsline {subsection}{\numberline {13.3.4}Files and nodes}{176}{subsection.13.3.4}
+\contentsline {subsubsection}{active\_path.py}{176}{subsubsection*.72}
+\contentsline {subsubsection}{at\_folder.py}{177}{subsubsection*.73}
+\contentsline {subsubsection}{at\_produce.py}{177}{subsubsection*.74}
+\contentsline {subsubsection}{at\_view.py}{178}{subsubsection*.75}
+\contentsline {subsubsection}{backlink.py}{178}{subsubsection*.76}
+\contentsline {subsubsection}{datenodes.py}{178}{subsubsection*.77}
+\contentsline {subsubsection}{expfolder.py}{178}{subsubsection*.78}
+\contentsline {subsubsection}{FileActions.py}{179}{subsubsection*.79}
+\contentsline {subsubsection}{geotag.py}{179}{subsubsection*.80}
+\contentsline {subsubsection}{leocursor.py}{179}{subsubsection*.81}
+\contentsline {subsubsection}{mime.py}{180}{subsubsection*.82}
+\contentsline {subsubsection}{multifile.py}{180}{subsubsection*.83}
+\contentsline {subsubsection}{niceNosent.py}{181}{subsubsection*.84}
+\contentsline {subsubsection}{read\_only\_nodes.py}{181}{subsubsection*.85}
+\contentsline {subsubsection}{run\_nodes.py}{182}{subsubsection*.86}
+\contentsline {subsubsection}{startfile.py}{182}{subsubsection*.87}
+\contentsline {subsubsection}{xsltWithNodes.py}{182}{subsubsection*.88}
+\contentsline {subsection}{\numberline {13.3.5}Scripting}{183}{subsection.13.3.5}
+\contentsline {subsubsection}{dyna\_menu}{183}{subsubsection*.89}
+\contentsline {subsubsection}{leoscreen.py}{183}{subsubsection*.90}
+\contentsline {subsubsection}{mod\_scripting.py}{184}{subsubsection*.91}
+\contentsline {subsubsection}{script\_io\_to\_body.py}{186}{subsubsection*.92}
+\contentsline {subsection}{\numberline {13.3.6}Servers}{186}{subsection.13.3.6}
+\contentsline {subsubsection}{leoremote.py}{186}{subsubsection*.93}
+\contentsline {subsubsection}{mod\_http.py}{187}{subsubsection*.94}
+\contentsline {subsection}{\numberline {13.3.7}Slideshows and screenshots}{187}{subsection.13.3.7}
+\contentsline {subsubsection}{screenshots.py}{187}{subsubsection*.95}
+\contentsline {subsubsection}{slideshow.py}{191}{subsubsection*.96}
+\contentsline {subsection}{\numberline {13.3.8}Text formatting}{191}{subsection.13.3.8}
+\contentsline {subsubsection}{bibtex.py}{191}{subsubsection*.97}
+\contentsline {subsubsection}{dtest.py}{192}{subsubsection*.98}
+\contentsline {subsubsection}{leo\_to\_html.py}{193}{subsubsection*.99}
+\contentsline {subsubsection}{leo\_to\_rtf.py}{194}{subsubsection*.100}
+\contentsline {subsection}{\numberline {13.3.9}User interface}{194}{subsection.13.3.9}
+\contentsline {subsubsection}{UNL.py}{194}{subsubsection*.101}
+\contentsline {subsubsection}{chapter\_hoist.py}{195}{subsubsection*.102}
+\contentsline {subsubsection}{detect\_urls.py}{195}{subsubsection*.103}
+\contentsline {subsubsection}{EditAttributes.py}{196}{subsubsection*.104}
+\contentsline {subsubsection}{interact.py}{196}{subsubsection*.105}
+\contentsline {subsubsection}{maximizeNewWindows.py}{196}{subsubsection*.106}
+\contentsline {subsubsection}{mod\_framesize.py}{196}{subsubsection*.107}
+\contentsline {subsubsection}{plugins\_menu.py}{196}{subsubsection*.108}
+\contentsline {subsubsection}{redirect\_to\_log.py}{197}{subsubsection*.109}
+\contentsline {subsubsection}{scripts\_menu.py}{197}{subsubsection*.110}
+\contentsline {subsubsection}{zenity\_file\_dialogs.py}{197}{subsubsection*.111}
+\contentsline {section}{\numberline {13.4}Qt only plugins}{198}{section.13.4}
+\contentsline {subsection}{\numberline {13.4.1}attrib\_edit.py}{198}{subsection.13.4.1}
+\contentsline {subsection}{\numberline {13.4.2}colorize\_headlines.py}{199}{subsection.13.4.2}
+\contentsline {subsection}{\numberline {13.4.3}contextmenu.py}{199}{subsection.13.4.3}
+\contentsline {subsection}{\numberline {13.4.4}nav\_qt.py}{200}{subsection.13.4.4}
+\contentsline {subsection}{\numberline {13.4.5}projectwizard.py}{200}{subsection.13.4.5}
+\contentsline {subsection}{\numberline {13.4.6}quicksearch.py}{200}{subsection.13.4.6}
+\contentsline {subsection}{\numberline {13.4.7}scrolledmessage.py}{200}{subsection.13.4.7}
+\contentsline {subsection}{\numberline {13.4.8}spydershell.py}{201}{subsection.13.4.8}
+\contentsline {subsection}{\numberline {13.4.9}stickynotes.py}{201}{subsection.13.4.9}
+\contentsline {subsection}{\numberline {13.4.10}todo.py}{202}{subsection.13.4.10}
+\contentsline {subsection}{\numberline {13.4.11}viewrendered.py}{202}{subsection.13.4.11}
+\contentsline {subsection}{\numberline {13.4.12}graphcanvas.py}{203}{subsection.13.4.12}
+\contentsline {chapter}{\numberline {14}Writing Plugins}{205}{chapter.14}
+\contentsline {section}{\numberline {14.1}enabled-plugins}{205}{section.14.1}
+\contentsline {section}{\numberline {14.2}Support for unit testing}{206}{section.14.2}
+\contentsline {section}{\numberline {14.3}Important security warnings}{206}{section.14.3}
+\contentsline {chapter}{\numberline {15}Unit testing with Leo}{209}{chapter.15}
+\contentsline {section}{\numberline {15.1}Using @test nodes}{209}{section.15.1}
+\contentsline {section}{\numberline {15.2}Using @suite nodes}{211}{section.15.2}
+\contentsline {section}{\numberline {15.3}Using @mark-for-unit-tests}{211}{section.15.3}
+\contentsline {section}{\numberline {15.4}How the unit test commands work}{212}{section.15.4}
+\contentsline {section}{\numberline {15.5}@button timer}{212}{section.15.5}
+\contentsline {section}{\numberline {15.6}@button profile}{212}{section.15.6}
+\contentsline {chapter}{\numberline {16}Debugging with Leo}{213}{chapter.16}
+\contentsline {section}{\numberline {16.1}Using g.trace and g.pdb}{213}{section.16.1}
+\contentsline {section}{\numberline {16.2}Settings for winpdb}{214}{section.16.2}
+\contentsline {section}{\numberline {16.3}Debugging scripts with winpdb}{214}{section.16.3}
+\contentsline {subsection}{\numberline {16.3.1}The debug command}{214}{subsection.16.3.1}
+\contentsline {subsection}{\numberline {16.3.2}The execute-script command with explicit debugger breaks}{214}{subsection.16.3.2}
+\contentsline {chapter}{\numberline {17}Using @shadow}{217}{chapter.17}
+\contentsline {section}{\numberline {17.1}Overview}{217}{section.17.1}
+\contentsline {section}{\numberline {17.2}Creating @shadow trees}{218}{section.17.2}
+\contentsline {section}{\numberline {17.3}What the update algorithm does}{218}{section.17.3}
+\contentsline {section}{\numberline {17.4}Aha: boundary cases don't matter}{219}{section.17.4}
+\contentsline {chapter}{\numberline {18}The leoInspect Module}{221}{chapter.18}
+\contentsline {section}{\numberline {18.1}A query language}{222}{section.18.1}
+\contentsline {section}{\numberline {18.2}Comparing leoInspect and Pylint}{223}{section.18.2}
+\contentsline {section}{\numberline {18.3}Still to do}{223}{section.18.3}
+\contentsline {section}{\numberline {18.4}Theory of operation}{223}{section.18.4}
+\contentsline {subsection}{\numberline {18.4.1}Getters}{224}{subsection.18.4.1}
+\contentsline {subsection}{\numberline {18.4.2}Computing token ranges}{224}{subsection.18.4.2}
+\contentsline {subsubsection}{Token-info prepass}{224}{subsubsection*.112}
+\contentsline {subsubsection}{token\_range}{225}{subsubsection*.113}
+\contentsline {chapter}{\numberline {19}Leo and Emacs}{227}{chapter.19}
+\contentsline {section}{\numberline {19.1}Controlling Leo from Emacs using Pymacs}{227}{section.19.1}
+\contentsline {section}{\numberline {19.2}Functions in leoPymacs.py}{229}{section.19.2}
+\contentsline {section}{\numberline {19.3}The minibuffer}{230}{section.19.3}
+\contentsline {chapter}{\numberline {20}IPython and Leo}{231}{chapter.20}
+\contentsline {section}{\numberline {20.1}Introduction}{232}{section.20.1}
+\contentsline {section}{\numberline {20.2}Installation and startup}{232}{section.20.2}
+\contentsline {section}{\numberline {20.3}Accessing IPython from Leo}{233}{section.20.3}
+\contentsline {subsection}{\numberline {20.3.1}IPython code}{233}{subsection.20.3.1}
+\contentsline {subsection}{\numberline {20.3.2}Plain Python code}{234}{subsection.20.3.2}
+\contentsline {section}{\numberline {20.4}Accessing Leo nodes from IPython}{234}{section.20.4}
+\contentsline {subsection}{\numberline {20.4.1}LeoNode}{234}{subsection.20.4.1}
+\contentsline {subsection}{\numberline {20.4.2}Accessing children with iteration and dict notation}{235}{subsection.20.4.2}
+\contentsline {section}{\numberline {20.5}@cl definitions}{236}{section.20.5}
+\contentsline {section}{\numberline {20.6}Special node types}{237}{section.20.6}
+\contentsline {subsection}{\numberline {20.6.1}@ipy-startup}{237}{subsection.20.6.1}
+\contentsline {subsection}{\numberline {20.6.2}@ipy-results}{237}{subsection.20.6.2}
+\contentsline {subsection}{\numberline {20.6.3}@ipy-root}{237}{subsection.20.6.3}
+\contentsline {subsection}{\numberline {20.6.4}@a nodes}{237}{subsection.20.6.4}
+\contentsline {section}{\numberline {20.7}Launching ILeo from IPython}{238}{section.20.7}
+\contentsline {section}{\numberline {20.8}Declaring custom push-to-ipython handlers}{238}{section.20.8}
+\contentsline {section}{\numberline {20.9}Example code snippets}{239}{section.20.9}
+\contentsline {section}{\numberline {20.10}Example use case: pylab}{239}{section.20.10}
+\contentsline {subsection}{\numberline {20.10.1}Startup}{239}{subsection.20.10.1}
+\contentsline {subsection}{\numberline {20.10.2}Usage}{240}{subsection.20.10.2}
+\contentsline {section}{\numberline {20.11}Magic functions}{240}{section.20.11}
+\contentsline {subsection}{\numberline {20.11.1}\%mb}{240}{subsection.20.11.1}
+\contentsline {subsection}{\numberline {20.11.2}\%lee}{240}{subsection.20.11.2}
+\contentsline {section}{\numberline {20.12}Acknowledgements and history}{241}{section.20.12}
+\contentsline {chapter}{\numberline {21}Embedding Leo with the leoBridge module}{243}{chapter.21}
+\contentsline {section}{\numberline {21.1}The basics}{243}{section.21.1}
+\contentsline {section}{\numberline {21.2}Running leoBridge from within Leo}{245}{section.21.2}
+\contentsline {chapter}{\numberline {22}Using Vim Bindings with Leo}{247}{chapter.22}
+\contentsline {section}{\numberline {22.1}Installing vim bindings}{247}{section.22.1}
+\contentsline {section}{\numberline {22.2}General commands}{247}{section.22.2}
+\contentsline {section}{\numberline {22.3}Body pane commands}{248}{section.22.3}
+\contentsline {section}{\numberline {22.4}Outline commands}{252}{section.22.4}
+\contentsline {section}{\numberline {22.5}Commands not supported}{255}{section.22.5}
+\contentsline {section}{\numberline {22.6}Avoiding changes to `tag' files}{256}{section.22.6}
+\contentsline {chapter}{\numberline {23}Using ZODB with Leo}{257}{chapter.23}
+\contentsline {section}{\numberline {23.1}Configuring Leo to use zodb}{257}{section.23.1}
+\contentsline {section}{\numberline {23.2}Initing zodb}{258}{section.23.2}
+\contentsline {section}{\numberline {23.3}Writing data to zodb}{258}{section.23.3}
+\contentsline {section}{\numberline {23.4}Defining zodb keys}{258}{section.23.4}
+\contentsline {section}{\numberline {23.5}Reading data from zodb}{259}{section.23.5}
+\contentsline {section}{\numberline {23.6}About connections}{259}{section.23.6}
+\contentsline {section}{\numberline {23.7}Convenience routines}{260}{section.23.7}
+\contentsline {subsection}{\numberline {23.7.1}g.init\_zodb (pathToZodbStorage,verbose=True)}{260}{subsection.23.7.1}
+\contentsline {subsection}{\numberline {23.7.2}v.detach()}{260}{subsection.23.7.2}
+\contentsline {chapter}{\numberline {24}Leo's Reference}{261}{chapter.24}
+\contentsline {section}{\numberline {24.1}Part 1: @\textless {}file\textgreater {} directives}{261}{section.24.1}
+\contentsline {subsection}{\numberline {24.1.1}@asis \textless {}path\textgreater {}}{262}{subsection.24.1.1}
+\contentsline {subsection}{\numberline {24.1.2}@auto \textless {}path\textgreater {}}{262}{subsection.24.1.2}
+\contentsline {subsection}{\numberline {24.1.3}@edit \textless {}path\textgreater {}}{263}{subsection.24.1.3}
+\contentsline {subsection}{\numberline {24.1.4}@file \textless {}path\textgreater {} (aka @thin)}{264}{subsection.24.1.4}
+\contentsline {subsection}{\numberline {24.1.5}@nosent \textless {}path\textgreater {}}{264}{subsection.24.1.5}
+\contentsline {subsection}{\numberline {24.1.6}@shadow \textless {}path\textgreater {}}{264}{subsection.24.1.6}
+\contentsline {section}{\numberline {24.2}Part 2: @all and @others}{264}{section.24.2}
+\contentsline {section}{\numberline {24.3}Part 3: Syntax coloring directives}{265}{section.24.3}
+\contentsline {section}{\numberline {24.4}Part 4: Dangerous directives}{265}{section.24.4}
+\contentsline {section}{\numberline {24.5}Part 5: All other directives}{266}{section.24.5}
+\contentsline {chapter}{\numberline {25}Designing with Leo}{271}{chapter.25}
+\contentsline {section}{\numberline {25.1}Outlines embody design}{271}{section.25.1}
+\contentsline {section}{\numberline {25.2}Nodes hide details}{272}{section.25.2}
+\contentsline {section}{\numberline {25.3}Clones create views}{272}{section.25.3}
+\contentsline {section}{\numberline {25.4}Nodes create context}{273}{section.25.4}
+\contentsline {chapter}{\numberline {26}History of Leo}{275}{chapter.26}
+\contentsline {section}{\numberline {26.1}Beginnings}{276}{section.26.1}
+\contentsline {section}{\numberline {26.2}Breakthrough}{276}{section.26.2}
+\contentsline {section}{\numberline {26.3}Apple and YellowBox}{276}{section.26.3}
+\contentsline {section}{\numberline {26.4}Borland C++}{276}{section.26.4}
+\contentsline {section}{\numberline {26.5}Discovering Python}{277}{section.26.5}
+\contentsline {section}{\numberline {26.6}SourceForge}{277}{section.26.6}
+\contentsline {section}{\numberline {26.7}Allowing sentinel lines in external files}{277}{section.26.7}
+\contentsline {section}{\numberline {26.8}Untangling @file is easy!}{277}{section.26.8}
+\contentsline {section}{\numberline {26.9}Leo 3.x: Continuous improvement}{277}{section.26.9}
+\contentsline {section}{\numberline {26.10}Leo 4.0: Eliminating error `recovery'}{278}{section.26.10}
+\contentsline {section}{\numberline {26.11}Leo 4.1: The debut of gnx's}{278}{section.26.11}
+\contentsline {section}{\numberline {26.12}Leo 4.2: Complete at last}{278}{section.26.12}
+\contentsline {section}{\numberline {26.13}Leo 4.3 Settings}{279}{section.26.13}
+\contentsline {section}{\numberline {26.14}Leo 4.4 The minibuffer and key bindings}{279}{section.26.14}
+\contentsline {section}{\numberline {26.15}Leo 4.4.x Improvements}{279}{section.26.15}
+\contentsline {section}{\numberline {26.16}Leo 4.5 @shadow files}{280}{section.26.16}
+\contentsline {section}{\numberline {26.17}Leo 4.6 Caching, Qt and more}{280}{section.26.17}
+\contentsline {section}{\numberline {26.18}Leo 4.7 The one node world and Python 3k}{280}{section.26.18}
+\contentsline {section}{\numberline {26.19}Leo 4.8 Simple sentinels \& better data recovery}{280}{section.26.19}
+\contentsline {chapter}{\numberline {27}Theory of Operation}{281}{chapter.27}
+\contentsline {section}{\numberline {27.1}Autocompletion}{281}{section.27.1}
+\contentsline {subsection}{\numberline {27.1.1}UI notes}{281}{subsection.27.1.1}
+\contentsline {subsection}{\numberline {27.1.2}Appearance}{282}{subsection.27.1.2}
+\contentsline {subsection}{\numberline {27.1.3}Performance}{282}{subsection.27.1.3}
+\contentsline {section}{\numberline {27.2}Clones}{282}{section.27.2}
+\contentsline {section}{\numberline {27.3}Drawing and events}{283}{section.27.3}
+\contentsline {section}{\numberline {27.4}Find and change commands}{284}{section.27.4}
+\contentsline {section}{\numberline {27.5}Key handling}{284}{section.27.5}
+\contentsline {subsection}{\numberline {27.5.1}Key domains}{284}{subsection.27.5.1}
+\contentsline {subsubsection}{Domain 1: Parsing user bindings in @keys, @mode and @shortcut nodes}{285}{subsubsection*.114}
+\contentsline {subsubsection}{Domain 2: Maintaining and using binding tables}{285}{subsubsection*.115}
+\contentsline {subsubsection}{Domain 3: Translating incoming key events into standard events}{285}{subsubsection*.116}
+\contentsline {subsubsection}{Domain 4: Printing key bindings in a human-readable format}{285}{subsubsection*.117}
+\contentsline {subsection}{\numberline {27.5.2}Key bindings}{285}{subsection.27.5.2}
+\contentsline {subsection}{\numberline {27.5.3}Handling key events}{286}{subsection.27.5.3}
+\contentsline {subsubsection}{All events are key events}{286}{subsubsection*.118}
+\contentsline {subsubsection}{c.check\_event}{286}{subsubsection*.119}
+\contentsline {subsection}{\numberline {27.5.4}About the KeyStroke class}{287}{subsection.27.5.4}
+\contentsline {subsection}{\numberline {27.5.5}Simplifying the Qt input code}{287}{subsection.27.5.5}
+\contentsline {subsection}{\numberline {27.5.6}Typed dicts}{288}{subsection.27.5.6}
+\contentsline {section}{\numberline {27.6}Nodes}{288}{section.27.6}
+\contentsline {section}{\numberline {27.7}Overview}{288}{section.27.7}
+\contentsline {section}{\numberline {27.8}Unicode}{289}{section.27.8}
+\contentsline {section}{\numberline {27.9}Unlimited undo}{289}{section.27.9}
+\contentsline {section}{\numberline {27.10}Leo's load process}{290}{section.27.10}
+\contentsline {chapter}{\numberline {28}White Papers}{291}{chapter.28}
+\contentsline {section}{\numberline {28.1}Why I like Python}{291}{section.28.1}
+\contentsline {subsection}{\numberline {28.1.1}Clarity}{291}{subsection.28.1.1}
+\contentsline {subsection}{\numberline {28.1.2}Power}{292}{subsection.28.1.2}
+\contentsline {subsection}{\numberline {28.1.3}Safety}{292}{subsection.28.1.3}
+\contentsline {subsection}{\numberline {28.1.4}Speed}{292}{subsection.28.1.4}
+\contentsline {subsection}{\numberline {28.1.5}Conclusions}{293}{subsection.28.1.5}
+\contentsline {chapter}{\numberline {29}Appendices}{295}{chapter.29}
+\contentsline {section}{\numberline {29.1}Format of .leo files}{295}{section.29.1}
+\contentsline {section}{\numberline {29.2}Format of external files}{297}{section.29.2}
+\contentsline {section}{\numberline {29.3}Unicode reference}{299}{section.29.3}
+\contentsline {chapter}{\numberline {30}Glossary}{301}{chapter.30}
+\contentsline {chapter}{\numberline {31}What's New in Leo}{307}{chapter.31}
+\contentsline {section}{\numberline {31.1}Leo 4.10}{308}{section.31.1}
+\contentsline {subsection}{\numberline {31.1.1}New features \& commands}{308}{subsection.31.1.1}
+\contentsline {subsubsection}{Weightless unit testing}{309}{subsubsection*.120}
+\contentsline {subsection}{\numberline {31.1.2}Plugins}{310}{subsection.31.1.2}
+\contentsline {subsection}{\numberline {31.1.3}Scripts}{310}{subsection.31.1.3}
+\contentsline {subsection}{\numberline {31.1.4}Settings}{310}{subsection.31.1.4}
+\contentsline {subsection}{\numberline {31.1.5}Bugs fixed}{311}{subsection.31.1.5}
+\contentsline {section}{\numberline {31.2}Previous versions}{312}{section.31.2}
+\contentsline {subsection}{\numberline {31.2.1}Leo 4.9}{312}{subsection.31.2.1}
+\contentsline {subsubsection}{Bugs fixed}{312}{subsubsection*.121}
+\contentsline {subsubsection}{Deprecated/removed features}{312}{subsubsection*.122}
+\contentsline {subsubsection}{Major improvements}{312}{subsubsection*.123}
+\contentsline {paragraph}{Completed Leo's autocompleter}{313}{paragraph*.124}
+\contentsline {subparagraph}{Appearance}{313}{subparagraph*.125}
+\contentsline {subparagraph}{Function and design}{313}{subparagraph*.126}
+\contentsline {subparagraph}{Codewise completions}{313}{subparagraph*.127}
+\contentsline {subparagraph}{Performance}{314}{subparagraph*.128}
+\contentsline {subparagraph}{Performance notes}{314}{subparagraph*.129}
+\contentsline {paragraph}{Greatly improved the viewrendered plugin}{314}{paragraph*.130}
+\contentsline {subparagraph}{Commands}{314}{subparagraph*.131}
+\contentsline {subparagraph}{Rendering reStructuredText}{315}{subparagraph*.132}
+\contentsline {subparagraph}{Special renderings}{315}{subparagraph*.133}
+\contentsline {subparagraph}{Settings}{316}{subparagraph*.134}
+\contentsline {subparagraph}{Acknowledgment}{316}{subparagraph*.135}
+\contentsline {subsubsection}{New and improved features}{316}{subsubsection*.136}
+\contentsline {paragraph}{Colorizing}{316}{paragraph*.137}
+\contentsline {paragraph}{Command-line arguments \& settings}{316}{paragraph*.138}
+\contentsline {paragraph}{File handling}{316}{paragraph*.139}
+\contentsline {paragraph}{Gui}{317}{paragraph*.140}
+\contentsline {paragraph}{Improved commands}{317}{paragraph*.141}
+\contentsline {paragraph}{New commands}{318}{paragraph*.142}
+\contentsline {paragraph}{Scripting}{318}{paragraph*.143}
+\contentsline {subsubsection}{New in 4.9 b2}{318}{subsubsection*.144}
+\contentsline {subsubsection}{New in 4.9 b3}{318}{subsubsection*.145}
+\contentsline {paragraph}{4.9 b3: Bugs fixed}{318}{paragraph*.146}
+\contentsline {paragraph}{4.9 b3: New features}{320}{paragraph*.147}
+\contentsline {subsubsection}{New in 4.9 b4}{321}{subsubsection*.148}
+\contentsline {subsubsection}{New in 4.9 rc1}{321}{subsubsection*.149}
+\contentsline {subsection}{\numberline {31.2.2}Leo 4.8}{322}{subsection.31.2.2}
+\contentsline {subsubsection}{New sentinels}{322}{subsubsection*.150}
+\contentsline {subsubsection}{Drag and drop files into Leo}{322}{subsubsection*.151}
+\contentsline {subsubsection}{Scripting improvements}{322}{subsubsection*.152}
+\contentsline {subsubsection}{Improved @url nodes}{322}{subsubsection*.153}
+\contentsline {subsubsection}{New \& improved commands}{323}{subsubsection*.154}
+\contentsline {paragraph}{Improved abbreviations commands}{323}{paragraph*.155}
+\contentsline {subsubsection}{New plugins}{323}{subsubsection*.156}
+\contentsline {subsubsection}{New settings \& command-line args}{323}{subsubsection*.157}
+\contentsline {subsubsection}{Other improvements}{324}{subsubsection*.158}
+\contentsline {subsection}{\numberline {31.2.3}Leo 4.7}{325}{subsection.31.2.3}
+\contentsline {subsubsection}{The one-node world}{325}{subsubsection*.159}
+\contentsline {subsubsection}{Leo supports Python 3.x}{325}{subsubsection*.160}
+\contentsline {subsubsection}{Improved file handling}{325}{subsubsection*.161}
+\contentsline {subsubsection}{New command-line options}{325}{subsubsection*.162}
+\contentsline {subsubsection}{New commands}{326}{subsubsection*.163}
+\contentsline {subsubsection}{New settings}{326}{subsubsection*.164}
+\contentsline {subsubsection}{Improved plugins}{326}{subsubsection*.165}
+\contentsline {subsection}{\numberline {31.2.4}Leo 4.6}{326}{subsection.31.2.4}
+\contentsline {subsubsection}{Improved unit testing}{326}{subsubsection*.166}
+\contentsline {subsubsection}{Improved file handling}{326}{subsubsection*.167}
+\contentsline {subsubsection}{Improved handling of rST files}{327}{subsubsection*.168}
+\contentsline {subsubsection}{New code features}{327}{subsubsection*.169}
+\contentsline {subsubsection}{New command-line options}{327}{subsubsection*.170}
+\contentsline {subsubsection}{New commands}{328}{subsubsection*.171}
+\contentsline {subsubsection}{New and improved directives}{328}{subsubsection*.172}
+\contentsline {subsubsection}{New settings}{328}{subsubsection*.173}
+\contentsline {subsubsection}{Plugins}{329}{subsubsection*.174}
+\contentsline {subsection}{\numberline {31.2.5}Leo 4.5}{329}{subsection.31.2.5}
+\contentsline {subsubsection}{Major new features}{329}{subsubsection*.175}
+\contentsline {subsubsection}{Major code reorganizations}{329}{subsubsection*.176}
+\contentsline {subsubsection}{Minor new features}{329}{subsubsection*.177}
+\contentsline {subsubsection}{New settings}{330}{subsubsection*.178}
+\contentsline {subsection}{\numberline {31.2.6}Leo 4.4.8}{330}{subsection.31.2.6}
+\contentsline {subsubsection}{New features}{330}{subsubsection*.179}
+\contentsline {subsubsection}{New and improved plugins}{331}{subsubsection*.180}
+\contentsline {subsubsection}{New settings}{331}{subsubsection*.181}
+\contentsline {subsection}{\numberline {31.2.7}Leo 4.4.6}{331}{subsection.31.2.7}
+\contentsline {subsubsection}{New commands}{331}{subsubsection*.182}
+\contentsline {subsubsection}{New features}{331}{subsubsection*.183}
+\contentsline {subsubsection}{New settings}{331}{subsubsection*.184}
+\contentsline {subsection}{\numberline {31.2.8}Leo 4.4.5}{331}{subsection.31.2.8}
+\contentsline {subsubsection}{Bug fixed}{331}{subsubsection*.185}
+\contentsline {subsubsection}{New features}{332}{subsubsection*.186}
+\contentsline {subsubsection}{New commands}{332}{subsubsection*.187}
+\contentsline {subsubsection}{New settings}{332}{subsubsection*.188}
+\contentsline {subsection}{\numberline {31.2.9}Leo 4.4.4}{332}{subsection.31.2.9}
+\contentsline {subsubsection}{The Great Graph Aha}{333}{subsubsection*.189}
+\contentsline {subsubsection}{Added support for @auto files}{333}{subsubsection*.190}
+\contentsline {paragraph}{What @auto does}{333}{paragraph*.191}
+\contentsline {paragraph}{Perfect import checks}{334}{paragraph*.192}
+\contentsline {paragraph}{Commands related to @auto}{334}{paragraph*.193}
+\contentsline {paragraph}{Extending the code: adding new parsers}{335}{paragraph*.194}
+\contentsline {subsubsection}{New commands for resolving cvs conflicts}{335}{subsubsection*.195}
+\contentsline {subsubsection}{New kinds of settings trees}{335}{subsubsection*.196}
+\contentsline {paragraph}{@buttons trees}{335}{paragraph*.197}
+\contentsline {paragraph}{@menus trees}{336}{paragraph*.198}
+\contentsline {subsubsection}{New plugins}{336}{subsubsection*.199}
+\contentsline {subsubsection}{Leo's core is now compatible with jython}{336}{subsubsection*.200}
+\contentsline {subsubsection}{Improved prototype for icons in headlines}{336}{subsubsection*.201}
+\contentsline {subsubsection}{Minor improvements}{336}{subsubsection*.202}
+\contentsline {subsubsection}{Summary of new commands}{337}{subsubsection*.203}
+\contentsline {subsection}{\numberline {31.2.10}Leo 4.4.3}{337}{subsection.31.2.10}
+\contentsline {subsection}{\numberline {31.2.11}Leo 4.4.2}{338}{subsection.31.2.11}
+\contentsline {subsubsection}{A major code reorg}{338}{subsubsection*.204}
+\contentsline {subsubsection}{New commands}{338}{subsubsection*.205}
+\contentsline {subsubsection}{New features}{338}{subsubsection*.206}
+\contentsline {subsubsection}{New and improved plugins}{339}{subsubsection*.207}
+\contentsline {subsubsection}{Settings}{340}{subsubsection*.208}
+\contentsline {subsubsection}{ZODB scripting}{340}{subsubsection*.209}
+\contentsline {subsection}{\numberline {31.2.12}Leo 4.4.1}{340}{subsection.31.2.12}
+\contentsline {subsubsection}{New commands}{341}{subsubsection*.210}
+\contentsline {subsubsection}{New features}{341}{subsubsection*.211}
+\contentsline {subsubsection}{New and improved plugins}{341}{subsubsection*.212}
+\contentsline {subsubsection}{New settings}{342}{subsubsection*.213}
+\contentsline {subsubsection}{Improved settings}{342}{subsubsection*.214}
+\contentsline {subsubsection}{Minor improvements}{342}{subsubsection*.215}
+\contentsline {subsection}{\numberline {31.2.13}Leo 4.4}{343}{subsection.31.2.13}
+\contentsline {subsubsection}{New commands}{343}{subsubsection*.216}
+\contentsline {subsubsection}{New features}{345}{subsubsection*.217}
+\contentsline {subsubsection}{New and improved plugins}{346}{subsubsection*.218}
+\contentsline {subsubsection}{New and improved settings}{347}{subsubsection*.219}

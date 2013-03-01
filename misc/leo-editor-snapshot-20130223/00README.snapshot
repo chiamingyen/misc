@@ -1,0 +1,15 @@
+Details of snapshot for bug reporting
+------------------------------------------------------------
+revno: 5603 [merge]
+revision-id: edreamleo@gmail.com-20130215171657-fb5cys1cixvl9ss3
+parent: terry_n_brown@yahoo.com-20130211033226-sm1l0mek143jjboy
+parent: edreamleo@gmail.com-20130215171442-007r8ke2pgzhdk99
+committer: Edward K. Ream <edreamleo@gmail.com>
+branch nick: main-trunk
+timestamp: Fri 2013-02-15 11:16:57 -0600
+message:
+  merged ekr's work with g.trace
+modified:
+  leo/core/leoGlobals.py         leoglobals.py-20080519131025-jva5d8d3q1ic5r8u-22
+------------------------------------------------------------
+Use --include-merges or -n0 to see merged revisions.

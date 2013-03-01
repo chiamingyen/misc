@@ -1,0 +1,54 @@
+##encoding: utf-8
+## 兩個 pound signs 在 Mako 語法中為註解行
+## 多行註解則使用
+<%doc>
+    這是註解
+    使用 <%! %> 表示在模組層次運作的 Python 程式碼, 可以用來 import 模組或定義相關的函式或物件
+</%doc>
+
+<html>
+        <head>
+                <title>Cherrypy Mako 表單測試</title>
+        </head>
+        <body>
+<style type="text/css" media="all">
+@import "templates/style/base.css";
+</style>  
+## 以下為一般的 Python 程式碼, 若是一般的運作則需要將 rows 數列傳進套稿中, 以便 render 頁面
+<%
+    每列人數 = 9
+%>
+## CherryPy 送出 st_array 數列資料
+## 應該要先將 table 資料由左至右的排列序號, 傳道 Mako, 然後利用以下迴圈將資料列印成表格
+<center>講台</center><br />
+<center>
+<table border=1>
+    % for 索引 in range(len(st_array)):
+            % if 索引%每列人數 == 0:
+                <tr>
+                    <td>
+                        ${st_array[索引]}
+                    </td>
+                % else:
+                    <td>
+                        ${st_array[索引]}
+                    </td>
+            % endif
+            % if (索引+1)%每列人數 == 0:
+                </tr>
+            % endif
+    % endfor
+## 補足空白的欄位
+    % if 每列人數-len(st_array)%每列人數 < 每列人數:
+        % for 索引2 in range(每列人數-len(st_array)%每列人數):
+            <td>
+                &nbsp;
+            </td>
+        % endfor
+    % endif
+    </tr>
+</table>
+</center>
+<%include file="menulink.html"/>
+        </body>
+</html>
